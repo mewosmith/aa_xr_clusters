@@ -1,0 +1,961 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_c" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_c_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="170" g="210" b="255" range="5E+08" shadowrange="5E+08" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="1.6">
+						<lightanimations/>
+						<offset>
+							<position x="5.445348E+07" y="5.02687E+07" z="-1.353507E+08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni02" shadow="0" r="170" g="193" b="209" range="5E+08" shadowrange="5E+08" lighteffect="1" trigger="1" intensity="1.2">
+						<lightanimations/>
+						<offset>
+							<position x="204109.4" y="-9.349576E+07" z="610878.9"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient01" r="100" g="109" b="120" range="1E+07" intensity="1.1">
+						<lightanimations/>
+						<offset>
+							<position x="101180.9" y="-7.466483E+07" z="3.263704"/>
+							<quaternion qx="0.7071068" qy="-0" qz="-0" qw="-0.7071068"/>
+						</offset>
+					</ambient>
+					<ambient name="XU Ambient02" r="42" g="55" b="64" range="1E+07" intensity="0.6">
+						<lightanimations/>
+						<offset>
+							<position x="5.445348E+07" y="5.753954E+07" z="-1.353507E+08"/>
+							<quaternion qx="0.7071068" qy="-0" qz="-0" qw="-0.7071068"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset>
+					<position x="-9592578" y="156861.7" z="1.184308E+07"/>
+				</offset>
+				<parts>
+					<part name="part_Sphere01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="lensflares.vertexcolor_basis_prio"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1000" y="1000" z="1000"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ">
+				<offset>
+					<position x="68359.38" y="-1.398349E+07" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_bg"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6.630371E+08" y="6.905373E+08" z="6.630371E+08"/>
+							<center x="15.625" y="-2.750017E+07" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part nocollision  ">
+				<offset>
+					<position x="68359.38" y="-1.398349E+07" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_bg_stars">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_stars"/>
+									<material id="2" ref="environments.cluster_c_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6.093352E+08" y="5.965725E+08" z="6.093352E+08"/>
+							<center x="15.625" y="1.276268E+07" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part  ">
+				<offset>
+					<position x="1.485013E+07" y="-6.502649E+07" z="3.733381E+07"/>
+				</offset>
+				<parts>
+					<part name="part_lavamoon">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_icemoon"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.176661E+07" y="1.176661E+07" z="1.176661E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part  ">
+				<offset>
+					<position x="1.485013E+07" y="-6.502649E+07" z="3.733381E+07"/>
+				</offset>
+				<parts>
+					<part name="part_haze_lavamoon">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_icemoon_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.224904E+07" y="1.224904E+07" z="1.224904E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part nocollision cluster_inside_detail  ">
+				<offset>
+					<position x="55406.74" y="-7.58507E+07" z="2107.971"/>
+				</offset>
+				<parts>
+					<part name="fx_haze">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="lensflares.vertexcolor_basis_prio"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3430326" y="588274.8" z="3418610"/>
+							<center x="-1.342773" y="410875" z="-0.6713867"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part nocollision cluster_inside_detail  ">
+				<offset>
+					<position x="55406.74" y="-7.58507E+07" z="2107.971"/>
+				</offset>
+				<parts>
+					<part name="fx_haze_new">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="lensflares.vertexcolor_basis_prio"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3260761" y="1352644" z="3260762"/>
+							<center x="0.3662109" y="1212422" z="-6.103516E-02"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part textureanimation nocollision animation cluster_l_detail  ">
+				<offset>
+					<position x="732126.6" y="-7.573036E+07" z="-555565.1"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="4000"/>
+				</animations>
+				<parts>
+					<part name="anim_fx_clouds_a">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="planets.planet_cloudtrims01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1092981" y="0" z="1042409"/>
+							<center x="-6303.284" y="0" z="27073.85"/>
+						</size>
+						<size_raw>
+							<max x="1099284" y="0" z="1015335"/>
+							<center x="-6303.284" y="0" z="27073.91"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="4000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection09" tags="part nocollision animation textureanimation cluster_l_detail  ">
+				<offset>
+					<position x="547486.1" y="-7.570818E+07" z="586134.3"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="4000"/>
+				</animations>
+				<parts>
+					<part name="anim_fx_clouds_b">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="planets.planet_cloudtrims01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="899328.7" y="0" z="733440.4"/>
+							<center x="-28192.63" y="0" z="33972.9"/>
+						</size>
+						<size_raw>
+							<max x="927521.3" y="0" z="699467.4"/>
+							<center x="-28192.63" y="0" z="33972.9"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="4000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection10" tags="part nocollision cluster_l_detail  ">
+				<offset>
+					<position x="2888517" y="-7.568806E+07" z="-273612.8"/>
+				</offset>
+				<parts>
+					<part name="fx_clouds_02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_orbitclouds_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1687012" y="206156.5" z="1695177"/>
+							<center x="-2538605" y="-35882.81" z="-9142.15"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection11" tags="part nocollision cluster_l_detail  ">
+				<offset>
+					<position x="3.571448E+07" y="-8.904015E+07" z="6142846"/>
+				</offset>
+				<parts>
+					<part name="fx_fp_medium_4">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.1364E+07" y="1.236179E+07" z="1.449212E+07"/>
+							<center x="3320285" y="2429727" z="-0.4882813"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection12" tags="part nocollision cluster_l_detail  ">
+				<offset>
+					<position x="2.290956E+07" y="-8.1247E+07" z="2670196"/>
+				</offset>
+				<parts>
+					<part name="fx_fp_dense_1">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6364158" y="6112806" z="6103576"/>
+							<center x="-632925.8" y="1603414" z="36407.96"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection13" tags="part nocollision cluster_l_detail  ">
+				<offset>
+					<position x="8717414" y="-7.664237E+07" z="-263466.7"/>
+				</offset>
+				<parts>
+					<part name="fx_clouds08">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_cloudplanes"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7011345" y="3779361" z="7900736"/>
+							<center x="-168111.3" y="0" z="-1370068"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection14" tags="part nocollision cluster_l_detail  ">
+				<offset>
+					<position x="5.021706E+07" y="-6.361804E+07" z="-1.735516E+07"/>
+				</offset>
+				<parts>
+					<part name="part_dust">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_dustplanes"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2288175" y="2626509" z="2600429"/>
+							<center x="0" y="-3.90625" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection15" tags="part nocollision cluster_l_detail  ">
+				<offset>
+					<position x="4.148479E+07" y="-8.466088E+07" z="6189753"/>
+				</offset>
+				<parts>
+					<part name="part_dust02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_dustplanes"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4526397" y="4330035" z="5143381"/>
+							<center x="65562.5" y="102000" z="-78133.3"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection16" tags="part cluster_inside_detail  ">
+				<offset>
+					<position x="55406.74" y="-7.610831E+07" z="2107.971"/>
+				</offset>
+				<parts>
+					<part name="part_planet_surf">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_planet_closeorbit2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3302519" y="164437.3" z="3291240"/>
+							<center x="-1.342773" y="0" z="-0.6713867"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection17" tags="part  ">
+				<offset>
+					<position x="-2.515307E+07" y="5.235014E+07" z="3863404"/>
+				</offset>
+				<parts>
+					<part name="part_haze_techplanet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_techplanet_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="9728537" y="9728536" z="9728537"/>
+							<center x="0" y="0" z="-0.2441406"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection18" tags="part animation textureanimation  ">
+				<offset>
+					<position x="-2.508471E+07" y="5.235014E+07" z="3863404"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="10000"/>
+				</animations>
+				<parts>
+					<part name="anim_techplanet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_techplanet"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="9444817" y="9449863" z="9451230"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="9444817" y="9449861" z="9451230"/>
+							<center x="0" y="0" z="-0.2441406"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection19" tags="part nocollision animation textureanimation  ">
+				<offset>
+					<position x="-1.991309E+07" y="5.214105E+07" z="8216365"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="2000"/>
+				</animations>
+				<parts>
+					<part name="anim_ms_techplanet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.masstraffic_lights_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4349940" y="7097208" z="5517963"/>
+							<center x="10244.14" y="-105335.9" z="-369919.4"/>
+						</size>
+						<size_raw>
+							<max x="4339695" y="7202542" z="5887882"/>
+							<center x="10244.14" y="-105335.9" z="-369919.4"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="1996" value="-1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection20" tags="part nocollision  ">
+				<offset>
+					<position x="-1.702556E+07" y="5.034058E+07" z="1.015066E+07"/>
+				</offset>
+				<parts>
+					<part name="fx_nebular_a01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_nebularplanes_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="761023" y="1192201" z="407142.8"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection21" tags="part  ">
+				<offset>
+					<position x="-1.34264E+07" y="5.087808E+07" z="1.028073E+07"/>
+				</offset>
+				<parts>
+					<part name="part_haze_lavamoon01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_icemoon_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1655033" y="1655033" z="1655033"/>
+							<center x="0" y="0" z="-0.9765625"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection22" tags="part  ">
+				<offset>
+					<position x="-1.34264E+07" y="5.087808E+07" z="1.028073E+07"/>
+				</offset>
+				<parts>
+					<part name="part_moon">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_icemoon"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1585353" y="1588487" z="1588487"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection23" tags="part nocollision  ">
+				<offset>
+					<position x="-1.594874E+07" y="5.081121E+07" z="1.08559E+07"/>
+				</offset>
+				<parts>
+					<part name="fx_nebular_a02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_nebularplanes_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="181368.8" y="1192201" z="843816.8"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection24" tags="part nocollision  ">
+				<offset>
+					<position x="-4746234" y="1.92213E+07" z="5374060"/>
+				</offset>
+				<parts>
+					<part name="fx_neb_ss">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes_prio1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2293967" y="467046.2" z="2352042"/>
+							<center x="0" y="-1.953125" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection25" tags="part nocollision  ">
+				<offset>
+					<position x="-1.660307E+07" y="4.905183E+07" z="1.103808E+07"/>
+				</offset>
+				<parts>
+					<part name="fx_neb_ss02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes_prio1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1867580" y="983161.1" z="1729252"/>
+							<center x="-7373.047" y="-159480.5" z="3631.836"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection26" tags="part nocollision cluster_l_detail  ">
+				<offset>
+					<position x="-327998.3" y="-7.192826E+07" z="423219.4"/>
+				</offset>
+				<parts>
+					<part name="fx_neb_ss01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes_prio1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2293967" y="467046.2" z="2352042"/>
+							<center x="0" y="0" z="3.051758E-02"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection27" tags="part nocollision  ">
+				<offset>
+					<position x="-1.587986E+07" y="1.11119E+07" z="-1.343933E+07"/>
+				</offset>
+				<parts>
+					<part name="fx_neb_ss06">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes_prio1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3367858" y="411674.1" z="3388241"/>
+							<center x="152597.7" y="-685082" z="501307.6"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection28" tags="part nocollision  ">
+				<offset>
+					<position x="-4936478" y="1.799388E+07" z="5020613"/>
+				</offset>
+				<parts>
+					<part name="fx_neb_ss07">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes_prio1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="312758" y="264623.7" z="243251.9"/>
+							<center x="1501.465" y="-1375" z="2948.242"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection29" tags="part nocollision  ">
+				<offset>
+					<position x="-1.703493E+07" y="4.861453E+07" z="9900320"/>
+				</offset>
+				<parts>
+					<part name="fx_neb_ss03">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes_prio1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="442078.3" y="15858.65" z="453068.6"/>
+							<center x="93.75" y="5660.156" z="-107.4219"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection30" tags="part nocollision  ">
+				<offset>
+					<position x="-1.621947E+07" y="8496500" z="-1.286892E+07"/>
+				</offset>
+				<parts>
+					<part name="fx_neb_ss05">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes_prio1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3384509" y="989814.8" z="3363557"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection31" tags="part animation textureanimation  ">
+				<offset>
+					<position x="3.069041E+08" y="-4.619308E+07" z="-1.872188E+08"/>
+					<quaternion qx="0.2585727" qy="-0.9650065" qz="4.345336E-02" qw="-3.801599E-03"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="20000"/>
+				</animations>
+				<parts>
+					<part name="anim_blackhole_disc">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_bh_disc"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.120841E+08" y="30.40954" z="3.12084E+08"/>
+							<center x="0" y="-15.625" z="-31.25"/>
+						</size>
+						<size_raw>
+							<max x="3.120841E+08" y="7.189159E-03" z="3.120841E+08"/>
+							<center x="0" y="0" z="-15.625"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="2">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="20000" value="-1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection32" tags="part animation textureanimation  ">
+				<offset>
+					<position x="3.071842E+08" y="-4.638671E+07" z="-1.906538E+08"/>
+					<quaternion qx="-0" qy="-0" qz="-0.1736482" qw="-0.9848078"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="20000"/>
+				</animations>
+				<parts>
+					<part name="anim_blackhole_part4">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_blackhole"/>
+									<material id="2" ref="environments.blackhole"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.270278E+08" y="4.366099E+07" z="2.253877E+08"/>
+							<center x="62.5" y="-191.4063" z="15.625"/>
+						</size>
+						<size_raw>
+							<max x="2.270278E+08" y="4.366117E+07" z="2.253877E+08"/>
+							<center x="62.5" y="-175.7813" z="15.625"/>
+						</size_raw>
+						<offset>
+							<position x="-31.25" y="-3.90625" z="0"/>
+						</offset>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="20000" value="2"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection33" tags="part animation textureanimation ">
+				<offset>
+					<position x="3.183962E+08" y="-6.638492E+07" z="-1.886594E+08"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="10000"/>
+				</animations>
+				<parts>
+					<part name="anim_blackhole_centerpart2">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.blackhole"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.454714E+07" y="1.487392E+07" z="2.831202E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="2.454715E+07" y="1.487391E+07" z="2.831201E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+						<offset>
+							<position x="-31.25" y="0" z="0"/>
+						</offset>
+						<pivot>
+							<offset>
+								<position x="-3.203609E+07" y="5.594779E+07" z="-5513620"/>
+							</offset>
+						</pivot>
+						<uv_animations>
+							<uv_animation mapchannel="1" rotaroundcenter="true">
+								<uv_property name="rotation_angle" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="5000" value="-180"/>
+									<key frame="10000" value="-360"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection34" tags="part animation textureanimation  ">
+				<offset>
+					<position x="1.764293E+07" y="1.282508E+07" z="2.301379E+07"/>
+					<quaternion qx="-0.1908215" qy="-0.6525699" qz="-0.1748556" qw="-0.7121554"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="360000"/>
+				</animations>
+				<parts>
+					<part name="part_GeoSphere01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_earthlike_planet"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.68298E+07" y="1.682979E+07" z="1.682979E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="1.682979E+07" y="1.682979E+07" z="1.682979E+07"/>
+							<center x="1.953125" y="-0.9765625" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="360000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection35" tags="part nocollision animation textureanimation  ">
+				<offset>
+					<position x="1.764293E+07" y="1.282508E+07" z="2.301379E+07"/>
+					<quaternion qx="0.1093817" qy="-0.875426" qz="-0.2345698" qw="0.408218"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="60000"/>
+				</animations>
+				<parts>
+					<part name="part_GeoSphere03clouds">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_earthlike_clouds"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.688831E+07" y="1.688832E+07" z="1.688832E+07"/>
+							<center x="-1.953125" y="0" z="-1.953125"/>
+						</size>
+						<size_raw>
+							<max x="1.688831E+07" y="1.688831E+07" z="1.688831E+07"/>
+							<center x="0" y="0.9765625" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="60000" value="1"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="60000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection36" tags="part  ">
+				<offset>
+					<position x="1.756965E+07" y="1.279697E+07" z="2.306249E+07"/>
+					<quaternion qx="-0.0225576" qy="-0.9622502" qz="-0.2578342" qw="-0.084186"/>
+				</offset>
+				<parts>
+					<part name="part_GeoSphere03haze">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_earthlike_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.774801E+07" y="1.774801E+07" z="1.774801E+07"/>
+							<center x="1.953125" y="-1.953125" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection37" tags="part animation  ">
+				<offset>
+					<position x="338249.2" y="-8.867546E+07" z="-1400257"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"/>
+				</animations>
+				<parts>
+					<part name="anim_moon_7a">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_planet_closeorbit2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.233384E+07" y="1.231164E+07" z="1.230167E+07"/>
+							<center x="-0.1831055" y="0" z="0.6103516"/>
+						</size>
+						<size_raw>
+							<max x="1.233384E+07" y="1.231164E+07" z="1.230167E+07"/>
+							<center x="-0.1831055" y="0" z="0.1220703"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="108000" value="4" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

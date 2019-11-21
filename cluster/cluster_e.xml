@@ -1,0 +1,304 @@
+<components>
+  <component name="cluster_e" class="celestialbody">
+    <source geometry="extensions\aa_xr_clusters\cluster\cluster_e_data"/>
+    <layers>
+      <layer>
+        <waypoints/>
+        <lights>
+          <omni name="SUN_BRIGHT" shadow="0" r="165" g="165" b="165" range="5E+08" shadowrange="5E+08" lighteffect="1" trigger="1" intensity="3">
+            <offset>
+              <position x="-1.017219E+07" y="1.898768E+07" z="3.392999E+07"/>
+            </offset>
+          </omni>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0" optional="0"/>
+      <connection name="position" tags="position" value="1" optional="1"/>
+      <connection name="space" tags="celestialbody">
+        <offset/>
+      </connection>
+      <connection name="Connection01" tags="part ">
+        <offset/>
+        <parts>
+          <part name="part_bg">
+            <size>
+              <max x="7.493732E+07" y="7.493732E+07" z="7.493732E+07"/>
+              <center x="0" y="0" z="0"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection02" tags="part ">
+        <offset>
+          <position x="1.133998E+07" y="8269.135" z="389309.8"/>
+        </offset>
+        <parts>
+          <part name="part_moon">
+            <size>
+              <max x="2771839" y="2773150" z="2773250"/>
+              <center x="0" y="-9.155273E-02" z="6.103516E-02"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection03" tags="part ">
+        <offset>
+          <position x="1.133998E+07" y="8269.135" z="389309.8"/>
+        </offset>
+        <parts>
+          <part name="part_moon_haze">
+            <size>
+              <max x="2936449" y="2936450" z="2936450"/>
+              <center x="0" y="-9.155273E-02" z="6.103516E-02"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection04" tags="part ">
+        <offset>
+          <position x="-3.224579E+07" y="-1.013861E+07" z="-6060668"/>
+        </offset>
+        <parts>
+          <part name="part_moon_haze01">
+            <size>
+              <max x="2944967" y="2944967" z="2944967"/>
+              <center x="0" y="0" z="0"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection05" tags="part ">
+        <offset>
+          <position x="-3.224579E+07" y="-1.013861E+07" z="-6060668"/>
+        </offset>
+        <parts>
+          <part name="part_moon01">
+            <size>
+              <max x="2781295" y="2781294" z="2781294"/>
+              <center x="0" y="0" z="0.4882813"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection06" tags="part ">
+        <offset>
+          <position x="4.780335E+07" y="4549033" z="6387494"/>
+        </offset>
+        <parts>
+          <part name="planet_haze">
+            <size>
+              <max x="1.231623E+07" y="1.692082E+07" z="1.703095E+07"/>
+              <center x="-4795801" y="-192732.9" z="-84154.78"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection07" tags="part ">
+        <offset>
+          <position x="4.780335E+07" y="4549033" z="6387494"/>
+        </offset>
+        <parts>
+          <part name="Planet">
+            <size>
+              <max x="1.049166E+07" y="1.577987E+07" z="1.592131E+07"/>
+              <center x="-5537215" y="-256129.4" z="-111113.8"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection08" tags="part animation textureanimation ">
+        <offset>
+          <position x="5.128843E+07" y="2904625" z="6351113"/>
+        </offset>
+        <animations>
+          <animation name="loop" start="1" end="4000"/>
+        </animations>
+        <parts>
+          <part name="anim_clouds">
+            <size>
+              <max x="1.062295E+07" y="1.570669E+07" z="1.619046E+07"/>
+              <center x="-9097668" y="1107256" z="88794.92"/>
+            </size>
+            <uv_animations>
+              <uv_animation mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0"/>
+                  <key frame="4000" value="-1"/>
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection09" tags="part ">
+        <offset>
+          <position x="1.836118E+07" y="1901301" z="2.529751E+07"/>
+        </offset>
+        <parts>
+          <part name="part_stars">
+            <size>
+              <max x="2.546569E+07" y="2.415252E+07" z="1.298464E+07"/>
+              <center x="-1431662" y="3262427" z="3915953"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection10" tags="part ">
+        <offset>
+          <position x="-1.263739E+07" y="4027919" z="2.669297E+07"/>
+        </offset>
+        <parts>
+          <part name="part_nebular_02">
+            <size>
+              <max x="2.784599E+07" y="2.169817E+07" z="2.215068E+07"/>
+              <center x="3331229" y="-2079938" z="-619052.8"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection11" tags="part ">
+        <offset>
+          <position x="1.804222E+07" y="-254592" z="-317751.2"/>
+        </offset>
+        <parts>
+          <part name="part_nebular_01">
+            <size>
+              <max x="1877408" y="6697883" z="9448232"/>
+              <center x="0" y="0.2441406" z="0.2441406"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection12" tags="part ">
+        <offset/>
+        <parts>
+          <part name="part_bg_stars">
+            <size>
+              <max x="7.175019E+07" y="7.175019E+07" z="7.175019E+07"/>
+              <center x="0" y="0" z="0"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection13" tags="part ">
+        <offset>
+          <position x="-2.057353E+07" y="-1.200449E+07" z="-4088807"/>
+        </offset>
+        <parts>
+          <part name="part_hazem_01">
+            <size>
+              <max x="2389340" y="7012292" z="7611336"/>
+              <center x="0" y="0" z="0.2441406"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection14" tags="part ">
+        <offset>
+          <position x="-1.63238E+07" y="-1.121009E+07" z="-5250914"/>
+        </offset>
+        <parts>
+          <part name="part_hazem_02">
+            <size>
+              <max x="3753235" y="1.556672E+07" z="1.589782E+07"/>
+              <center x="0" y="0" z="0"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection15" tags="part ">
+        <offset>
+          <position x="-2.463702E+07" y="-1.183012E+07" z="-3357153"/>
+        </offset>
+        <parts>
+          <part name="part_hazem_03">
+            <size>
+              <max x="261945.3" y="7012292" z="7973253"/>
+              <center x="0" y="0" z="-0.2441406"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection16" tags="part ">
+        <offset>
+          <position x="-2.964021E+07" y="-9921378" z="2014259"/>
+        </offset>
+        <parts>
+          <part name="part_nebular_04">
+            <size>
+              <max x="1.264348E+07" y="1.318251E+07" z="4997458"/>
+              <center x="-883537.1" y="935272.4" z="133971.8"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection17" tags="part ">
+        <offset>
+          <position x="5844025" y="-786418.4" z="-2229880"/>
+        </offset>
+        <parts>
+          <part name="part_nebular_05">
+            <size>
+              <max x="1543802" y="5930194" z="7143927"/>
+              <center x="1597.656" y="39.00146" z="8761.23"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection18" tags="part ">
+        <offset>
+          <position x="3757433" y="-649274.3" z="-2109067"/>
+        </offset>
+        <parts>
+          <part name="part_nebular_06">
+            <size>
+              <max x="767822" y="3738122" z="3568711"/>
+              <center x="1.220703" y="-11.53564" z="-2532.471"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection19" tags="part ">
+        <offset>
+          <position x="2.368867E+07" y="-254592" z="-691606.4"/>
+        </offset>
+        <parts>
+          <part name="part_nebular_07">
+            <size>
+              <max x="4054565" y="7172164" z="7265681"/>
+              <center x="1.953125" y="-3870.361" z="19.53125"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection20" tags="part ">
+        <offset>
+          <position x="2.554062E+07" y="-254592" z="-3840949"/>
+        </offset>
+        <parts>
+          <part name="part_nebular_08">
+            <size>
+              <max x="4206399" y="3399175" z="2713636"/>
+              <center x="5996.094" y="-31.49414" z="3.90625"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="Connection21" tags="part ">
+        <offset>
+          <position x="2.776421E+07" y="-44427.37" z="820241.7"/>
+        </offset>
+        <parts>
+          <part name="part_nebular_09">
+            <size>
+              <max x="3442949" y="2581360" z="1365213"/>
+              <center x="0" y="-31.86035" z="-1.342773"/>
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

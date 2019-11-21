@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="planet_sun_blue_macro" class="planet">
+    <component ref="planet_sun_blue">
+      <connections>
+        <connection name="space" />
+      </connections>
+    </component>
+  </macro>
+</macros>

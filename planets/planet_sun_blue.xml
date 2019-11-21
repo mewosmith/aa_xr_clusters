@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+  <component name="planet_sun_blue">
+    <offset>
+      <position x="0" y="0" z="0"></position>
+      <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068"></quaternion>
+    </offset>
+    <layers>
+      <layer lod="0" geometry="extensions\aa_xr_clusters\planets\planet_sun_A_data">
+        <waypoints></waypoints>
+        <lights>
+          <omni name="XU Omni01" shadow="0" r="120" g="144" b="255" intensity="40.0" range="1500000000000" shadowrange="500" lighteffect="3" lenseffect="sun_a" trigger="1">
+            <offset>
+              <position x="0" y="0" z="0"></position>
+            </offset>
+          </omni>
+        </lights>
+        <size>
+          <max x="6000000" y="6000001" z="6000001"></max>
+          <center x="0" y="0" z="0"></center>
+        </size>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0" optional="0"></connection>
+      <connection name="position" tags="position" value="1" optional="1"></connection>
+      <connection name="space" tags="station"></connection>
+      <connection name="cluster" tags="planet" value="0" optional="0"></connection>
+    </connections>
+  </component>
+</components>

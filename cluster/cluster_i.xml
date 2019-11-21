@@ -1,0 +1,745 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_i" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_i_data"></source>
+		<layers>
+			<layer>
+				<waypoints></waypoints>
+				<lights>
+					<omni name="XU Omni02" shadow="0" r="112" g="148" b="185" range="5.000106E+08" shadowrange="5.000106E+08" lighteffect="1" lenseffect="sun_maelstrom" trigger="1" intensity="1.25">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="1.476975E+08" y="9.788981E+07" z="-2.967102E+08"></position>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient01" r="56" g="74" b="92" range="5.000106E+18" intensity="0.5">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-4.414558E+07" y="0" z="-1.488981E+07"></position>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"></connection>
+			<connection name="position" tags="position" value="1" optional="1"></connection>
+			<connection name="space" tags="celestialbody">
+				<offset></offset>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset>
+					<position x="-1046908" y="1.589271E+07" z="-4994176"></position>
+					<quaternion qx="-3.868749E-02" qy="-0.9164621" qz="9.147505E-02" qw="-0.3875988"></quaternion>
+				</offset>
+				<parts>
+					<part name="part_bg">
+						<size>
+							<max x="4.55197E+08" y="4.55197E+08" z="4.55197E+08"></max>
+							<center x="-60.79102" y="-7.8125" z="19.53125"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part animation textureanimation  ">
+				<offset>
+					<position x="6.926597E+07" y="-2.080093E+07" z="786692.4"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="12000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_lavamoon">
+						<size>
+							<max x="3560612" y="3561849" z="3562779"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+						<size_raw>
+							<max x="3560612" y="3561849" z="3562779"></max>
+							<center x="0" y="0" z="-0.1220703"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="12000" value="-1"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part  ">
+				<offset>
+					<position x="8.628417E+07" y="0" z="1.036735E+08"></position>
+				</offset>
+				<parts>
+					<part name="part_haze_lavamoon">
+						<size>
+							<max x="5.946654E+07" y="5.946654E+07" z="5.946654E+07"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part animation textureanimation  ">
+				<offset>
+					<position x="-6.101658E+07" y="-2333947" z="4.177571E+07"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="12000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon">
+						<size>
+							<max x="7033203" y="7035768" z="7034052"></max>
+							<center x="0" y="-0.4882813" z="0"></center>
+						</size>
+						<size_raw>
+							<max x="7033203" y="7035768" z="7034052"></max>
+							<center x="0" y="-0.2441406" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="12009" value="1"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part  ">
+				<offset>
+					<position x="-5.729025E+07" y="-1497667" z="4.989272E+07"></position>
+				</offset>
+				<parts>
+					<part name="part_moon_haze01">
+						<size>
+							<max x="1210382" y="1210382" z="1210382"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part  ">
+				<offset>
+					<position x="-5.729025E+07" y="-1497667" z="4.989272E+07"></position>
+				</offset>
+				<parts>
+					<part name="part_moon01">
+						<size>
+							<max x="1142531" y="1143071" z="1143112"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part  ">
+				<offset>
+					<position x="6.223922E+07" y="-2.252792E+07" z="-3968055"></position>
+				</offset>
+				<parts>
+					<part name="part_nebular_sec1">
+						<size>
+							<max x="493593.5" y="1020528" z="1113455"></max>
+							<center x="-69300.78" y="295193.4" z="-5865.967"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part nocollision  ">
+				<offset>
+					<position x="2.636164E+07" y="-1.85695E+07" z="-5486416"></position>
+				</offset>
+				<parts>
+					<part name="fx_nebular_01">
+						<size>
+							<max x="2.685547" y="2.695004E+07" z="3.710838E+07"></max>
+							<center x="0" y="1.953125" z="-0.9765625"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection09" tags="part nocollision  ">
+				<offset>
+					<position x="-3.290097E+07" y="-333746.1" z="2.45804E+07"></position>
+				</offset>
+				<parts>
+					<part name="fx_nebular_02">
+						<size>
+							<max x="1.568268E+07" y="2.695004E+07" z="3.363161E+07"></max>
+							<center x="0" y="0" z="1.953125"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection10" tags="part nocollision  ">
+				<offset>
+					<position x="-6.101658E+07" y="-2333947" z="4.177571E+07"></position>
+				</offset>
+				<parts>
+					<part name="fx_iceplanet_haze">
+						<size>
+							<max x="7342047" y="7344725" z="7342934"></max>
+							<center x="0" y="-0.2441406" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection11" tags="part nocollision  ">
+				<offset>
+					<position x="-7.534477E+07" y="-3678245" z="3.414286E+07"></position>
+				</offset>
+				<parts>
+					<part name="fx_nebular_03">
+						<size>
+							<max x="2.685547" y="2.695004E+07" z="3.710838E+07"></max>
+							<center x="0" y="-0.9765625" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection12" tags="part  ">
+				<offset>
+					<position x="-4.921468E+07" y="-1775230" z="3.646977E+07"></position>
+				</offset>
+				<parts>
+					<part name="part_moon02">
+						<size>
+							<max x="598356.2" y="598582.1" z="598459.6"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection13" tags="part  ">
+				<offset>
+					<position x="-4.921468E+07" y="-1775230" z="3.646977E+07"></position>
+				</offset>
+				<parts>
+					<part name="part_moon_haze02">
+						<size>
+							<max x="633890.5" y="633890.6" z="633890.6"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection14" tags="part animation textureanimation cluster_l_detail  ">
+				<offset>
+					<position x="-6.101658E+07" y="-2333947" z="4.177571E+07"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="2500"></animation>
+				</animations>
+				<parts>
+					<part name="cluster_l_detail_fx_iceplanet_clouds">
+						<size>
+							<max x="7047000" y="7047582" z="7046098"></max>
+							<center x="0" y="-0.4882813" z="0"></center>
+						</size>
+						<size_raw>
+							<max x="7047000" y="7047582" z="7046098"></max>
+							<center x="0" y="-0.7324219" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="2500" value="-1"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection15" tags="part nocollision  ">
+				<offset>
+					<position x="8383694" y="285163.1" z="-2515159"></position>
+				</offset>
+				<parts>
+					<part name="fx_nebular_04">
+						<size>
+							<max x="2.685547" y="2.695004E+07" z="3.710838E+07"></max>
+							<center x="0" y="0" z="0.4882813"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection16" tags="part nocollision  ">
+				<offset>
+					<position x="4225586" y="6116593" z="-999016.6"></position>
+				</offset>
+				<parts>
+					<part name="fx_nebular_05">
+						<size>
+							<max x="2.685547" y="2.695004E+07" z="3.710838E+07"></max>
+							<center x="0" y="0" z="-6.103516E-02"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection17" tags="part nocollision  ">
+				<offset>
+					<position x="-1597391" y="6486983" z="1183107"></position>
+				</offset>
+				<parts>
+					<part name="fx_nebular_07">
+						<size>
+							<max x="0.237954" y="2387920" z="3288003"></max>
+							<center x="0" y="0" z="0.1220703"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection18" tags="part textureanimation animation ">
+				<offset>
+					<position x="8.628417E+07" y="0" z="1.036735E+08"></position>
+					<quaternion qx="1.363903E-02" qy="2.608079E-04" qz="1.911688E-02" qw="-0.9997241"></quaternion>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="20000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_gasgiant">
+						<size>
+							<max x="5.70842E+07" y="5.70827E+07" z="5.708684E+07"></max>
+							<center x="0" y="-2.459058" z="0"></center>
+						</size>
+						<size_raw>
+							<max x="5.70842E+07" y="5.708269E+07" z="5.708684E+07"></max>
+							<center x="0" y="-0.5059333" z="0"></center>
+						</size_raw>
+						<offset>
+							<position x="-15.625" y="0.5059333" z="-7.8125"></position>
+						</offset>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="20000" value="-1"></key>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="20000" value="2"></key>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="20000" value="1"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection19" tags="part animation  ">
+				<offset>
+					<position x="2.769084E+08" y="-5.413128E+07" z="1.455942E+08"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_7a">
+						<size>
+							<max x="1.22835E+07" y="1.224631E+07" z="1.235116E+07"></max>
+							<center x="0" y="-104839.8" z="0"></center>
+						</size>
+						<size_raw>
+							<max x="1.228349E+07" y="1.235115E+07" z="1.235115E+07"></max>
+							<center x="0" y="-104839.8" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"></key>
+									<key frame="108000" value="4" in_tangent_type="auto" out_tangent_type="auto"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection20" tags="part animation  ">
+				<offset>
+					<position x="-1.672178E+08" y="2.317269E+07" z="1.861811E+08"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_8a">
+						<size>
+							<max x="2.557525E+08" y="2.627493E+07" z="2.562279E+08"></max>
+							<center x="2.535019E+08" y="-2.317268E+07" z="-8.250849E+07"></center>
+						</size>
+						<size_raw>
+							<max x="2250658" y="2263055" z="2263055"></max>
+							<center x="0" y="0" z="-15.625"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"></key>
+									<key frame="108000" value="4" in_tangent_type="auto" out_tangent_type="auto"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection21" tags="part animation  ">
+				<offset>
+					<position x="-1.729208E+08" y="2.611155E+07" z="-3.767461E+07"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_9a">
+						<size>
+							<max x="2.639069E+08" y="3.083796E+07" z="2.644996E+08"></max>
+							<center x="2.592045E+08" y="-2.611154E+07" z="1.41349E+08"></center>
+						</size>
+						<size_raw>
+							<max x="4700306" y="4726197" z="4726197"></max>
+							<center x="0" y="0" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"></key>
+									<key frame="108000" value="3" in_tangent_type="auto" out_tangent_type="auto"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection22" tags="part animation  ">
+				<offset>
+					<position x="2.326629E+07" y="0" z="-2.560259E+07"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_6a">
+						<size>
+							<max x="1498371" y="1506624" z="1506625"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+						<size_raw>
+							<max x="1498371" y="1506624" z="1506624"></max>
+							<center x="0" y="0" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"></key>
+									<key frame="108000" value="-3" in_tangent_type="auto" out_tangent_type="auto"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection23" tags="part animation  ">
+				<offset>
+					<position x="7.932382E+07" y="6659856" z="-7207934"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_4a">
+						<size>
+							<max x="1.126081E+08" y="9412088" z="1.128689E+08"></max>
+							<center x="6960352" y="-467121.6" z="1.108815E+08"></center>
+						</size>
+						<size_raw>
+							<max x="1976529" y="1987416" z="1987416"></max>
+							<center x="0" y="0" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"></key>
+									<key frame="108000" value="4" in_tangent_type="auto" out_tangent_type="auto"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection24" tags="part animation  ">
+				<offset>
+					<position x="8.628418E+07" y="-6839376" z="2.030197E+08"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_3a">
+						<size>
+							<max x="1.051265E+08" y="1.239303E+07" z="1.048915E+08"></max>
+							<center x="-23.4375" y="6838763" z="-9.933723E+07"></center>
+						</size>
+						<size_raw>
+							<max x="5554270" y="5554270" z="5554270"></max>
+							<center x="0" y="0" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"></key>
+									<key frame="108000" value="-2" in_tangent_type="auto" out_tangent_type="auto"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection25" tags="part animation  ">
+				<offset>
+					<position x="5513016" y="199912.6" z="9.315852E+07"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_2a">
+						<size>
+							<max x="8.199381E+07" y="2.248662E+07" z="7.942039E+07"></max>
+							<center x="8.07503E+07" y="-168260.3" z="1.060974E+07"></center>
+						</size>
+						<size_raw>
+							<max x="1243496" y="1358916" z="1411442"></max>
+							<center x="-53410.16" y="-91967.59" z="21390.63"></center>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection26" tags="part animation  ">
+				<offset>
+					<position x="3.380621E+07" y="0.2679644" z="4.778924E+07"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_1a">
+						<size>
+							<max x="7.813219E+07" y="1521646" z="7.814972E+07"></max>
+							<center x="5.249245E+07" y="-2.382378E-02" z="5.585488E+07"></center>
+						</size>
+						<size_raw>
+							<max x="1513310" y="1521645" z="1521645"></max>
+							<center x="0" y="-2.382378E-02" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"></key>
+									<key frame="108000" value="3" in_tangent_type="auto" out_tangent_type="auto"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection27" tags="part animation  ">
+				<offset>
+					<position x="2.906754E+08" y="-4.873283E+07" z="1.282334E+08"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_7b">
+						<size>
+							<max x="1.876053E+07" y="6338785" z="1.852793E+07"></max>
+							<center x="-1.3767E+07" y="-5171739" z="1.736088E+07"></center>
+						</size>
+						<size_raw>
+							<max x="1167046" y="1167046" z="1167046"></max>
+							<center x="0" y="0" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"></key>
+									<key frame="108000" value="1" in_tangent_type="auto" out_tangent_type="auto"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection28" tags="part animation  ">
+				<offset>
+					<position x="3.165344E+08" y="-5.390454E+07" z="1.29907E+08"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_7c">
+						<size>
+							<max x="4.161088E+07" y="1987416" z="4.161434E+07"></max>
+							<center x="-3.962347E+07" y="3.90625" z="1.568738E+07"></center>
+						</size>
+						<size_raw>
+							<max x="1976528" y="1987416" z="1987416"></max>
+							<center x="0" y="0" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"></key>
+									<key frame="108000" value="-2" in_tangent_type="auto" out_tangent_type="auto"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection29" tags="part animation  ">
+				<offset>
+					<position x="-1.912398E+08" y="-4458874" z="-1.061996E+08"></position>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"></animation>
+				</animations>
+				<parts>
+					<part name="anim_moon_10a">
+						<size>
+							<max x="6263054" y="6263055" z="6263055"></max>
+							<center x="0" y="0.4882813" z="0"></center>
+						</size>
+						<size_raw>
+							<max x="6263054" y="6263055" z="6263054"></max>
+							<center x="0" y="0.4882813" z="0"></center>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="108000" value="4"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection30" tags="part animation nocollision  ">
+				<offset>
+					<position x="1.476975E+08" y="9.788981E+07" z="-2.967102E+08"></position>
+					<quaternion qx="1.182189E-08" qy="-0.6087613" qz="-9.07125E-09" qw="-0.7933534"></quaternion>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="70"></animation>
+				</animations>
+				<parts>
+					<part name="nocollision_sun_pulsar">
+						<size>
+							<max x="1.395954E+08" y="2.889337E+07" z="2.889337E+07"></max>
+							<center x="15.625" y="0" z="0"></center>
+						</size>
+						<size_raw>
+							<max x="1.395954E+08" y="2.889337E+07" z="2.889337E+07"></max>
+							<center x="0" y="0" z="0"></center>
+						</size_raw>
+						<offset>
+							<position x="15.625" y="15.625" z="-31.25"></position>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection31" tags="part animation textureanimation ">
+				<offset>
+					<position x="5903206" y="-8.796068E+07" z="-2.075425E+07"></position>
+					<quaternion qx="-9.032305E-02" qy="-0.4138289" qz="0.0413056" qw="-0.9049206"></quaternion>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="12000"></animation>
+				</animations>
+				<parts>
+					<part name="fx_anim_maelstrom">
+						<size>
+							<max x="3.971358E+08" y="3.186859E+08" z="3.967895E+08"></max>
+							<center x="6790199" y="3.59991E+07" z="1.448931E+07"></center>
+						</size>
+						<size_raw>
+							<max x="4.036546E+08" y="2.805086E+08" z="3.895798E+08"></max>
+							<center x="6790168" y="3.599907E+07" z="1.448938E+07"></center>
+						</size_raw>
+						<offset>
+							<position x="1.464844" y="15.625" z="0"></position>
+						</offset>
+						<uv_animations>
+							<uv_animation mapchannel="4">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="12003" value="2"></key>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="12003" value="1"></key>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="12003" value="3"></key>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"></key>
+									<key frame="12003" value="2"></key>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection32" tags="part nocollision  ">
+				<offset>
+					<position x="-1046908" y="1.589271E+07" z="-4994176"></position>
+					<quaternion qx="-2.458265E-02" qy="-0.9626235" qz="0.0935379" qw="-0.2529867"></quaternion>
+				</offset>
+				<parts>
+					<part name="fx_stars">
+						<size>
+							<max x="4.356049E+08" y="4.367133E+08" z="4.358177E+08"></max>
+							<center x="6034345" y="-884820.3" z="-1772262"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection33" tags="part nocollision  ">
+				<offset>
+					<position x="6.199024E+07" y="-2.689766E+07" z="-1366880"></position>
+					<quaternion qx="-0" qy="-0.976296" qz="-0" qw="-0.2164396"></quaternion>
+				</offset>
+				<parts>
+					<part name="fx_nebular_08">
+						<size>
+							<max x="2.685547" y="2.695004E+07" z="3.710838E+07"></max>
+							<center x="0" y="0" z="-0.2441406"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

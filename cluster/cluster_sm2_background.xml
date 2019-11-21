@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_sm2_background" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_sm2_background_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="170" g="210" b="255" range="5E+08" shadowrange="5E+08" lighteffect="1" lenseffect="sun_ol2" trigger="1" intensity="1.6">
+						<lightanimations/>
+						<offset>
+							<position x="5.445348E+07" y="2.96654E+07" z="9.406727E+07"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient02" r="42" g="55" b="64" range="1E+07" intensity="0.6">
+						<lightanimations/>
+						<offset>
+							<position x="5.445348E+07" y="5.753954E+07" z="-1.353507E+08"/>
+							<quaternion qx="0.7071068" qy="-0" qz="-0" qw="-0.7071068"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection001" tags="part  ">
+				<offset>
+					<position x="-9592578" y="156861.7" z="1.184308E+07"/>
+				</offset>
+				<parts>
+					<part name="part_Sphere01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="lensflares.vertexcolor_basis_prio"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1000" y="1000" z="1000"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection002" tags="part  ">
+				<offset>
+					<position x="68359.38" y="-1.398349E+07" z="0"/>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08"/>
+				</offset>
+				<parts>
+					<part name="part_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_bg"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6.630371E+08" y="6.905373E+08" z="6.630371E+08"/>
+							<center x="15.625" y="-2.750017E+07" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection003" tags="part nocollision  ">
+				<offset>
+					<position x="68359.38" y="-1.398349E+07" z="0"/>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08"/>
+				</offset>
+				<parts>
+					<part name="part_bg_stars">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_stars"/>
+									<material id="2" ref="environments.cluster_c_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6.093352E+08" y="5.965725E+08" z="6.093352E+08"/>
+							<center x="15.625" y="1.276268E+07" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection004" tags="part nocollision  ">
+				<offset>
+					<position x="-4936478" y="1.799388E+07" z="5020613"/>
+				</offset>
+				<parts>
+					<part name="fx_neb_ss07">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_fogplanes_prio1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="312758" y="264623.7" z="243251.9"/>
+							<center x="1501.465" y="-1375" z="2948.242"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection005" tags="part animation textureanimation  ">
+				<offset>
+					<position x="-1.578732E+07" y="711018.6" z="3.168206E+07"/>
+					<quaternion qx="-0.1908215" qy="-0.6525699" qz="-0.1748556" qw="-0.7121554"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="360000"/>
+				</animations>
+				<parts>
+					<part name="part_GeoSphere01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_earthlike_planet"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.68298E+07" y="1.682979E+07" z="1.682979E+07"/>
+							<center x="0.9765625" y="1.586914" z="0"/>
+						</size>
+						<size_raw>
+							<max x="1.682979E+07" y="1.682979E+07" z="1.682979E+07"/>
+							<center x="0.9765625" y="-0.3662109" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="360000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection006" tags="part nocollision animation textureanimation  ">
+				<offset>
+					<position x="-1.578732E+07" y="711018.6" z="3.168206E+07"/>
+					<quaternion qx="0.1093817" qy="-0.875426" qz="-0.2345698" qw="0.408218"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="10000"/>
+				</animations>
+				<parts>
+					<part name="part_GeoSphere03clouds">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_earthlike_clouds"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.688831E+07" y="1.688832E+07" z="1.688831E+07"/>
+							<center x="3.90625" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="1.688831E+07" y="1.688831E+07" z="1.688831E+07"/>
+							<center x="-0.9765625" y="0.9765625" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10000" value="1"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection007" tags="part  ">
+				<offset>
+					<position x="-1.58606E+07" y="682904.3" z="3.173075E+07"/>
+					<quaternion qx="-0.0225576" qy="-0.9622502" qz="-0.2578342" qw="-0.084186"/>
+				</offset>
+				<parts>
+					<part name="part_GeoSphere03haze">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_c_earthlike_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.774801E+07" y="1.774801E+07" z="1.774801E+07"/>
+							<center x="0.9765625" y="-1.037598" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection008" tags="part nocollision  ">
+				<offset>
+					<position x="-1.173462E+07" y="66263.67" z="1.291471E+07"/>
+					<quaternion qx="-0" qy="-0.6087613" qz="-0" qw="-0.7933534"/>
+				</offset>
+				<parts>
+					<part name="fx_nebular_08">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.generic_galaxy_06"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.685547" y="2.695004E+07" z="3.710838E+07"/>
+							<center x="-0.9765625" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection009" tags="part nocollision animation  ">
+				<offset>
+					<position x="-7440740" y="-3272824" z="1.1483E+07"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="30000"/>
+				</animations>
+				<parts>
+					<part name="fx_Plane_01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_sm_nebular_1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4605483" y="4605483" z="0.9765625"/>
+							<center x="-0.4882813" y="-0.2441406" z="0"/>
+						</size>
+						<size_raw>
+							<max x="3256632" y="3256632" z="0.5305727"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection010" tags="part nocollision animation  ">
+				<offset>
+					<position x="-3805737" y="-4657201" z="1.226432E+07"/>
+					<quaternion qx="-0" qy="-0" qz="0.8433915" qw="-0.5372995"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="30000"/>
+				</animations>
+				<parts>
+					<part name="fx_Plane_002">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_sm_nebular_1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4605481" y="4605482" z="0.9765625"/>
+							<center x="0.2441406" y="0.4882813" z="0"/>
+						</size>
+						<size_raw>
+							<max x="3256632" y="3256632" z="0.5305727"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection011" tags="part nocollision animation  ">
+				<offset>
+					<position x="-1027544" y="-3123396" z="1.250337E+07"/>
+					<quaternion qx="-0" qy="-0" qz="0.7071067" qw="-0.7071068"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="30000"/>
+				</animations>
+				<parts>
+					<part name="fx_Plane_003">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_sm_nebular_1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4605483" y="4605483" z="0.9765625"/>
+							<center x="0.2441406" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="3256632" y="3256632" z="0.5305727"/>
+							<center x="-0.1220703" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection012" tags="part nocollision animation  ">
+				<offset>
+					<position x="361222" y="-4025151" z="1.229513E+07"/>
+					<quaternion qx="-0" qy="-0" qz="-0.8870109" qw="0.4617486"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="30000"/>
+				</animations>
+				<parts>
+					<part name="fx_Plane_004">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_sm_nebular_1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4605482" y="4605482" z="0.9765625"/>
+							<center x="0.2441406" y="-0.2441406" z="0"/>
+						</size>
+						<size_raw>
+							<max x="3256632" y="3256632" z="0.5305727"/>
+							<center x="-0.2441406" y="-0.2441406" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection013" tags="part nocollision animation  ">
+				<offset>
+					<position x="-1315803" y="-4796142" z="1.170336E+07"/>
+					<quaternion qx="-0" qy="-0" qz="0.3826835" qw="-0.9238796"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="30000"/>
+				</animations>
+				<parts>
+					<part name="fx_Plane_005">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_sm_nebular_1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4605482" y="4605483" z="0.9765625"/>
+							<center x="0.2441406" y="-0.4882813" z="0"/>
+						</size>
+						<size_raw>
+							<max x="3256632" y="3256632" z="0.5305727"/>
+							<center x="-0.1220703" y="0" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection014" tags="part nocollision animation  ">
+				<offset>
+					<position x="-5700762" y="-4435582" z="1.263652E+07"/>
+					<quaternion qx="-0" qy="-0" qz="-0.8870109" qw="0.4617486"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="30000"/>
+				</animations>
+				<parts>
+					<part name="fx_Plane_006">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_sm_nebular_1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4605482" y="4605482" z="0.9765625"/>
+							<center x="0" y="-0.4882813" z="0"/>
+						</size>
+						<size_raw>
+							<max x="3256632" y="3256632" z="0.5305727"/>
+							<center x="-0.4882813" y="0.4882813" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

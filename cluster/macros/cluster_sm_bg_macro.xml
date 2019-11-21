@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.112) at 10.08.2012_13-04-36-->
+<macros>
+  <macro name="cluster_sm_bg_macro" class="celestialbody">
+    <component ref="cluster_sm2_background" />
+    <properties />
+  </macro>
+</macros>

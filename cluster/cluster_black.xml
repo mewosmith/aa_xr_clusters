@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_black" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_black_data"></source>
+		<layers>
+			<layer>
+				<waypoints></waypoints>
+				<lights>
+          <!--ambient name="XU Ambient01" r="57" g="57" b="57" range="100000" intensity="0.8">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="7.150787E+08" y="0" z="-7.098267E+07"></position>
+						</offset>
+					</ambient-->
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"></connection>
+			<connection name="position" tags="position" value="1" optional="1"></connection>
+			<connection name="space" tags="celestialbody">
+				<offset></offset>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset></offset>
+				<parts>
+					<part name="part_bg">
+						<size>
+							<max x="4.551969E+08" y="4.551969E+08" z="4.551969E+08"></max>
+							<center x="0" y="0" z="-31.25"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

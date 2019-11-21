@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_sm_hol_background" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_sm_hol_background_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="220" b="195" range="5E+08" shadowrange="5E+08" lighteffect="1" lenseffect="sun_m_v1" trigger="1" intensity="1.25">
+						<lightanimations/>
+						<offset>
+							<position x="-9.257516E+08" y="2.402119E+08" z="5.041477E+08"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient001" r="30" g="32" b="40" range="1E+10" intensity="1">
+						<lightanimations/>
+						<offset/>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection001" tags="part  ">
+				<offset>
+					<position x="458122.6" y="-8871683" z="3.19522E+07"/>
+					<quaternion qx="-0" qy="-0" qz="-8.715573E-02" qw="-0.9961947"/>
+				</offset>
+				<parts>
+					<part name="part_highway-asteroids_01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1607679" y="1885646" z="2070987"/>
+							<center x="-194481.1" y="-29644.53" z="1092981"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection002" tags="part  ">
+				<offset>
+					<position x="-1.675579E+07" y="-4.305042E+07" z="1.579545E+08"/>
+				</offset>
+				<parts>
+					<part name="part_bg_asteroid_03">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_holeypattern_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="9486268" y="8214888" z="9639929"/>
+							<center x="-2782467" y="-821390.6" z="-4704547"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection003" tags="part  ">
+				<offset>
+					<position x="-1.106583E+07" y="-9555849" z="3.951948E+07"/>
+				</offset>
+				<parts>
+					<part name="part_asteroids_mini01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3945764" y="2173680" z="3124930"/>
+							<center x="9317.383" y="1202.148" z="-4679.688"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection004" tags="part  ">
+				<offset>
+					<position x="458122.6" y="-8871683" z="3.19522E+07"/>
+					<quaternion qx="-0" qy="-0" qz="-8.715573E-02" qw="-0.9961947"/>
+				</offset>
+				<parts>
+					<part name="part_highway_aster_02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3793454" y="1931903" z="3033941"/>
+							<center x="-5005809" y="-388406.3" z="3537606"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection005" tags="part  ">
+				<offset>
+					<position x="-6657185" y="4556.396" z="3260408"/>
+					<quaternion qx="-0" qy="-0.976296" qz="-0" qw="0.2164396"/>
+				</offset>
+				<parts>
+					<part name="part_bgstars">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.stars_v2b"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.324155E+09" y="2.32417E+09" z="2.324155E+09"/>
+							<center x="5930685" y="1.658619E+07" z="-4743783"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection006" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="individualstar055">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.stars_v4"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.100792E+09" y="1.81972E+09" z="2.122736E+09"/>
+							<center x="-1498750" y="-1.87615E+07" z="1.14565E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection007" tags="part textureanimation animation ">
+				<offset>
+					<position x="4693559" y="120304.4" z="7488721"/>
+					<quaternion qx="-0" qy="-5.492899E-03" qz="-0" qw="-0.9999849"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="400000"/>
+				</animations>
+				<parts>
+					<part name="anim_gasgiant">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_m_gasgiant"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4204506" y="4207058" z="4204792"/>
+							<center x="0.4882813" y="-0.2441406" z="-0.4882813"/>
+						</size>
+						<size_raw>
+							<max x="4204506" y="4207058" z="4204792"/>
+							<center x="-0.4882813" y="-0.1220703" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="400000" value="1"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="400000" value="2"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="400000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection008" tags="part nocollision ">
+				<offset>
+					<position x="4693559" y="120304.4" z="7488721"/>
+				</offset>
+				<parts>
+					<part name="anim_gasgiant_atmo">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_m_gasgiant_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4392978" y="4394028" z="4393321"/>
+							<center x="-0.9765625" y="-0.7324219" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection009" tags="part  ">
+				<offset>
+					<position x="-6691748" y="0" z="3276525"/>
+					<quaternion qx="-0" qy="-0.976296" qz="-0" qw="0.2164396"/>
+				</offset>
+				<parts>
+					<part name="background_nebula">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_m_background"/>
+									<material id="2" ref="11 - Default3"/>
+									<material id="3" ref="11 - Default33"/>
+									<material id="4" ref="11 - Default333"/>
+									<material id="5" ref="nebula_stars"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.601802E+09" y="2.604467E+09" z="2.602407E+09"/>
+							<center x="-2.441406" y="0" z="-24.90234"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

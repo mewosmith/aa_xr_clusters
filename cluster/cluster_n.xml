@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_n" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_n_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="189" g="169" b="251" range="5E+08" shadowrange="5E+08" lighteffect="1" lenseffect="sun_n_v1" trigger="1" intensity="1.1">
+						<lightanimations/>
+						<offset>
+							<position x="-4.49444E+08" y="8.686762E+07" z="-8.193247E+08"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient001" r="20" g="19" b="36" range="1E+11" intensity="1">
+						<lightanimations/>
+						<offset/>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="cluster">
+				<offset/>
+			</connection>
+			<connection name="Connection001" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_bgmain">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.bg_vertexcolor_solid"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.286382E+09" y="1.286391E+09" z="1.286382E+09"/>
+							<center x="562.5" y="0" z="812.5"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection002" tags="part nocollision  ">
+				<offset>
+					<position x="-8.774521E+07" y="-33863.89" z="-7749685"/>
+					<quaternion qx="-0" qy="-0" qz="-8.715573E-02" qw="-0.9961947"/>
+				</offset>
+				<parts>
+					<part name="nocollision_highway-asteroids_01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1607679" y="1885646" z="2070987"/>
+							<center x="-194484.4" y="-29643.97" z="1092979"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection003" tags="part nocollision  ">
+				<offset>
+					<position x="-9.926917E+07" y="-718030" z="-182388"/>
+				</offset>
+				<parts>
+					<part name="nocollision_asteroids_mini01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3942228" y="2165765" z="3120146"/>
+							<center x="10570.31" y="4065.308" z="-5371.887"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection004" tags="part animation  ">
+				<offset>
+					<position x="1.09783E+08" y="-4951940" z="1609.238"/>
+					<quaternion qx="0.130402" qy="-0.9905012" qz="-4.357787E-02" qw="-1.902795E-03"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"/>
+				</animations>
+				<parts>
+					<part name="anim_planet_big_layer005">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_n_planet"/>
+									<material id="2" ref="environments.cluster_n_planet_rings"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.546538E+07" y="1.562825E+07" z="1.546537E+07"/>
+							<center x="0" y="1.953125" z="-0.3186464"/>
+						</size>
+						<size_raw>
+							<max x="1.546537E+07" y="1.562825E+07" z="1.546537E+07"/>
+							<center x="0" y="-1.953125" z="-0.3186464"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection005" tags="part  ">
+				<offset>
+					<position x="9.887132E+07" y="-7868117" z="-169349"/>
+					<quaternion qx="-4.357792E-02" qy="1.902646E-03" qz="-0.1304019" qw="-0.9905012"/>
+				</offset>
+				<parts>
+					<part name="anim_planetclouds_big_layer003">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_n_planet_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.627981E+07" y="1.645119E+07" z="1.627981E+07"/>
+							<center x="1.091173E+07" y="2916177" z="170961.1"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="1.129598E+07" y="0" z="-4.208079E-02"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection006" tags="part  ">
+				<offset>
+					<position x="-8.774521E+07" y="-33863.89" z="-7749685"/>
+					<quaternion qx="-0" qy="-0" qz="-8.715573E-02" qw="-0.9961947"/>
+				</offset>
+				<parts>
+					<part name="part_highway_aster_02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3793454" y="1931903" z="3033941"/>
+							<center x="-5005813" y="-388406.1" z="3537608"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection007" tags="part  ">
+				<offset>
+					<position x="0.9765625" y="0" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_bgstars">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.stars_v2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.1641E+09" y="1.164108E+09" z="1.1641E+09"/>
+							<center x="2499.023" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection008" tags="part  ">
+				<offset>
+					<position x="2354789" y="2084000" z="224590.2"/>
+				</offset>
+				<parts>
+					<part name="Object011">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.stars_v3"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.084495E+09" y="1.007274E+09" z="1.130753E+09"/>
+							<center x="-4.681332E+07" y="-2.959203E+07" z="1027785"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection009" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="individualstar151">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.stars_v4"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.064404E+09" y="8.975498E+08" z="1.064569E+09"/>
+							<center x="2965250" y="4300656" z="-3695250"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection010" tags="part  ">
+				<offset>
+					<position x="-6.723296E+07" y="-7519495" z="-3325460"/>
+				</offset>
+				<parts>
+					<part name="Object012">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.red_nebula"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.563313E+08" y="1.074172E+09" z="1.126903E+09"/>
+							<center x="8.755419E+08" y="5.047659E+07" z="3.188321E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection011" tags="part  ">
+				<offset>
+					<position x="-6.723296E+07" y="-7519495" z="-3325460"/>
+				</offset>
+				<parts>
+					<part name="Object013">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.red_nebula_v2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.101865E+08" y="6.339962E+08" z="1.050787E+09"/>
+							<center x="1.017236E+09" y="526776.4" z="1.001277E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection012" tags="part nocollision  ">
+				<offset>
+					<position x="4.166249E+07" y="-2.315727E+07" z="-1065682"/>
+					<quaternion qx="0.130402" qy="-0.9905012" qz="-4.357788E-02" qw="-1.902794E-03"/>
+				</offset>
+				<parts>
+					<part name="nocollision_rings">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_n_planet_rings"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.229502E+07" y="7.381526" z="4.229502E+07"/>
+							<center x="6.812054E+07" y="1.820534E+07" z="1067291"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="-7.051938E+07" y="0" z="0"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

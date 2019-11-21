@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: cpushuttle.egosoft.dev (192.168.3.127) at 19.11.2010_14-23-23-->
+<macros>
+  <macro name="cluster_a_bg_macro" class="celestialbody">
+    <component ref="cluster_i" />
+    <properties />
+  </macro>
+</macros>

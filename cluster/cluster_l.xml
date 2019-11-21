@@ -1,0 +1,1071 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_l" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_l_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="218" g="230" b="255" range="5E+08" shadowrange="5E+08" lighteffect="1" lenseffect="sun_l_v1" trigger="1" intensity="1.6">
+						<lightanimations/>
+						<offset>
+							<position x="8.793201E+08" y="3.904735E+08" z="-3.679447E+08"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient001" r="27" g="34" b="31" range="1E+10" intensity="1">
+						<lightanimations/>
+						<offset/>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection001" tags="part  ">
+				<offset>
+					<position x="1.191366E+07" y="-33863.89" z="1.122116E+08"/>
+					<quaternion qx="-0" qy="-0" qz="-8.715573E-02" qw="-0.9961947"/>
+				</offset>
+				<parts>
+					<part name="part_highway-asteroids_01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1607679" y="1885646" z="2070987"/>
+							<center x="-194481.4" y="-29644.11" z="1092984"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection002" tags="part  ">
+				<offset>
+					<position x="-1.297058E+07" y="-2237501" z="-1.31208E+08"/>
+				</offset>
+				<parts>
+					<part name="part_brokenmoon_brocken_02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.871154E+07" y="1.802446E+07" z="1.448145E+07"/>
+							<center x="-3481692" y="1.220703" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection003" tags="part  ">
+				<offset>
+					<position x="-2.236558E+07" y="-615273.4" z="-1.276831E+08"/>
+				</offset>
+				<parts>
+					<part name="part_brokenmoon_brocken_01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="9254736" y="1.048031E+07" z="1.379629E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection004" tags="part  ">
+				<offset>
+					<position x="389707" y="-718030" z="1.197789E+08"/>
+				</offset>
+				<parts>
+					<part name="part_asteroids_mini01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3943078" y="2167491" z="3120993"/>
+							<center x="10120.36" y="3466.064" z="-4851.563"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection005" tags="part animation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="-0" qy="0.7044177" qz="-0" qw="-0.7097856"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="anim_planet_big_layer005">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet"/>
+									<material id="2" ref="environments.cluster_l_planet_volcano"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7746145" y="7827723" z="7746144"/>
+							<center x="0" y="0.4882813" z="0.9765625"/>
+						</size>
+						<size_raw>
+							<max x="7746143" y="7827723" z="7746144"/>
+							<center x="0" y="0" z="0.9765625"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="0" z="-15.625"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection006" tags="part  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+				</offset>
+				<parts>
+					<part name="anim_planetclouds_big_layer003">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_b_pp_clouds"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7781341" y="7863256" z="7781340"/>
+							<center x="0" y="0" z="1.953125"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection007" tags="part  ">
+				<offset>
+					<position x="1.191366E+07" y="-33863.89" z="1.122116E+08"/>
+					<quaternion qx="-0" qy="-0" qz="-8.715573E-02" qw="-0.9961947"/>
+				</offset>
+				<parts>
+					<part name="part_highway_aster_02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3793454" y="1931903" z="3033941"/>
+							<center x="-5005809" y="-388406.2" z="3537610"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection008" tags="part  ">
+				<offset>
+					<position x="0.9765625" y="0" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_bgstars">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.stars_v2b"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.1641E+09" y="1.164108E+09" z="1.1641E+09"/>
+							<center x="2499.023" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection009" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="individualstar151">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.stars_v4"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.067713E+09" y="8.975498E+08" z="1.068425E+09"/>
+							<center x="-456812.5" y="4300656" z="528500"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection010" tags="part  ">
+				<offset>
+					<position x="3.814697E-06" y="0" z="7.629395E-06"/>
+					<quaternion qx="-6.587423E-02" qy="-0.7999794" qz="-9.844758E-03" qw="-0.5963192"/>
+				</offset>
+				<parts>
+					<part name="background_nebula">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_background"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.601801E+09" y="2.604468E+09" z="2.602407E+09"/>
+							<center x="-3.814697E-06" y="0" z="-7.629395E-06"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection011" tags="part  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+				</offset>
+				<parts>
+					<part name="part_planethaze_big_layer004">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_haze"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8160699" y="8246606" z="8160697"/>
+							<center x="15.625" y="0" z="-21.48438"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="112750" y="0" z="152375"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection012" tags="part animation textureanimation  ">
+				<offset>
+					<position x="1.373067E+08" y="-3049371" z="5273266"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcano"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1067375" y="210075.3" z="466040.8"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="1067373" y="210075.4" z="466040.5"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="4000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection013" tags="part animation textureanimation  ">
+				<offset>
+					<position x="1.378358E+08" y="-3614011" z="4905819"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object002">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcano"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1096098" y="194464.1" z="349295.7"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="1096101" y="194464.1" z="349295.4"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="4000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection014" tags="part animation textureanimation  ">
+				<offset>
+					<position x="1.385162E+08" y="-2427387" z="4982624"/>
+					<quaternion qx="-0" qy="-0.1304314" qz="-0" qw="-0.9914573"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object003">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcano"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1136650" y="193464" z="143594.7"/>
+							<center x="171.875" y="361.084" z="-14439.45"/>
+						</size>
+						<size_raw>
+							<max x="1132737" y="193103" z="157499.5"/>
+							<center x="171.875" y="361.084" z="-14442.38"/>
+						</size_raw>
+						<offset>
+							<position x="15.625" y="0" z="-5.371094"/>
+						</offset>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="4000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection015" tags="part animation textureanimation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="-0.122886" qy="0.640654" qz="0.1800059" qw="-0.7362468"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object004">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcano"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="92920.91" y="195402.3" z="753070.4"/>
+							<center x="-1533125" y="4150131" z="-6398347"/>
+						</size>
+						<size_raw>
+							<max x="7774537" y="761966.1" z="14411.17"/>
+							<center x="-1533109" y="4150128" z="-6398344"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="-3.417969" z="14.64844"/>
+						</offset>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="4000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection016" tags="part animation textureanimation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="1.484969E-02" qy="0.6162868" qz="-0.0189668" qw="-0.7871534"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object005">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcano"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="97779.32" y="189812.3" z="751898.5"/>
+							<center x="-2599469" y="591636.8" z="-7313871"/>
+						</size>
+						<size_raw>
+							<max x="7784251" y="773144.6" z="16753.77"/>
+							<center x="-2599469" y="591636.8" z="-7313869"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="0" z="16.60156"/>
+						</offset>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="4000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection017" tags="part animation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="6.138731E-02" qy="0.6992657" qz="-6.228509E-02" qw="-0.7094925"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object006">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcano"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="97777.59" y="189812.5" z="751906.3"/>
+							<center x="-880875" y="-391016.1" z="-7724709"/>
+						</size>
+						<size_raw>
+							<max x="7784251" y="773144.8" z="16753.54"/>
+							<center x="-880890.6" y="-391015.6" z="-7724709"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="-0.9765625" z="-15.625"/>
+						</offset>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="4000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection018" tags="part animation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="0.0160001" qy="0.7297079" qz="-1.723145E-02" qw="-0.6833546"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object007">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="52199.46" y="147412.4" z="149488.3"/>
+							<center x="-1751938" y="1269232" z="-7442596"/>
+						</size>
+						<size_raw>
+							<max x="7296231" y="1470681" z="2081745"/>
+							<center x="-1751969" y="1269232" z="-7442596"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="0" z="15.625"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection019" tags="part animation textureanimation  ">
+				<offset>
+					<position x="1.383621E+08" y="257120.6" z="6751287"/>
+					<quaternion qx="-0.2806256" qy="0.0145172" qz="4.958088E-02" qw="-0.9584259"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object008">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcano"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1093060" y="192657.1" z="386363.2"/>
+							<center x="-750" y="22233.4" z="-29904.3"/>
+						</size>
+						<size_raw>
+							<max x="1096101" y="190228.4" z="423430.3"/>
+							<center x="-750" y="22233.37" z="-29903.81"/>
+						</size_raw>
+						<offset>
+							<position x="-15.625" y="0.4272461" z="0.9765625"/>
+						</offset>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="4000" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection020" tags="part animation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="-4.293875E-02" qy="0.7614825" qz="4.416477E-02" qw="-0.6452519"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object009">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="60688.47" y="115647.6" z="117211.5"/>
+							<center x="-1189047" y="2602412" z="-7205259"/>
+						</size>
+						<size_raw>
+							<max x="7237905" y="1593105" z="2263954"/>
+							<center x="-1189047" y="2602412" z="-7205261"/>
+						</size_raw>
+						<offset>
+							<position x="-15.625" y="-2.441406" z="-3.90625"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection021" tags="part animation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="-0.1184204" qy="0.7621754" qz="0.1286949" qw="-0.6233001"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object010">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="50572.27" y="150277.6" z="148749.7"/>
+							<center x="-884343.8" y="4098702" z="-6529240"/>
+						</size>
+						<size_raw>
+							<max x="7280207" y="1470715" z="2157141"/>
+							<center x="-884343.8" y="4098702" z="-6529240"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection022" tags="part animation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="-0.126081" qy="0.7085488" qz="0.2366496" qw="-0.6527321"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object011">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="51479" y="148744.6" z="150455.4"/>
+							<center x="-1340531" y="5269506" z="-5553999"/>
+						</size>
+						<size_raw>
+							<max x="7271240" y="1411663" z="2268597"/>
+							<center x="-1340531" y="5269505" z="-5554000"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="-1.953125" z="-19.53125"/>
+						</offset>
+						<uv_animations/>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection023" tags="part animation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="-1.030331E-02" qy="0.703444" qz="1.040812E-02" qw="-0.7105998"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object007a">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+									<material id="2" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="60687.5" y="115647.8" z="117204.5"/>
+							<center x="-2452063" y="1917390" z="-7096511"/>
+						</size>
+						<size_raw>
+							<max x="7234752" y="1592363" z="2262909"/>
+							<center x="-2452063" y="1917390" z="-7096511"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="0.4882813" z="-15.625"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection024" tags="part animation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="-0.1255607" qy="0.7229301" qz="-0.1449347" qw="-0.6637774"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object012">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="54558.36" y="142199.3" z="145492.4"/>
+							<center x="-2065500" y="547195.3" z="-7448416"/>
+						</size>
+						<size_raw>
+							<max x="7287916" y="1456438" z="2127710"/>
+							<center x="-2065500" y="547195.3" z="-7448415"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="3.90625" z="-16.60156"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection025" tags="part animation  ">
+				<offset>
+					<position x="1.404584E+08" y="-4951940" z="1.202225E+07"/>
+					<quaternion qx="-5.641695E-02" qy="0.7842172" qz="-0.2000395" qw="-0.5846407"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object013">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="54557.62" y="142198.7" z="145491"/>
+							<center x="-306000" y="-454500" z="-7729449"/>
+						</size>
+						<size_raw>
+							<max x="7287916" y="1456438" z="2127710"/>
+							<center x="-306000" y="-454501" z="-7729448"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="-1.953125" z="-15.625"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection026" tags="part animation  ">
+				<offset>
+					<position x="1.32825E+08" y="-3674464" z="1.247081E+07"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object014">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="26096.44" y="118557.1" z="117537.8"/>
+							<center x="312.5" y="5.371094" z="102.5391"/>
+						</size>
+						<size_raw>
+							<max x="25781.74" y="118551.6" z="117435.4"/>
+							<center x="312.5" y="5.371094" z="102.5391"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection027" tags="part animation  ">
+				<offset>
+					<position x="1.329137E+08" y="-3145587" z="1.218327E+07"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object015">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="38896" y="147994" z="150960"/>
+							<center x="-312.5" y="-15.625" z="-146.4844"/>
+						</size>
+						<size_raw>
+							<max x="39208.5" y="148009.5" z="151106.5"/>
+							<center x="-312.5" y="-15.625" z="-146.4844"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection028" tags="part animation  ">
+				<offset>
+					<position x="1.329194E+08" y="-3343604" z="1.102822E+07"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object016">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="32164.31" y="151996.5" z="154612"/>
+							<center x="78.125" y="32.22656" z="-30.27344"/>
+						</size>
+						<size_raw>
+							<max x="32071.29" y="151964.1" z="154642.4"/>
+							<center x="78.125" y="32.22656" z="-30.27344"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection029" tags="part animation  ">
+				<offset>
+					<position x="1.33122E+08" y="-5401779" z="1.447674E+07"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object007a001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="45961.43" y="128290.3" z="116744.4"/>
+							<center x="390.625" y="0" z="-5.859375"/>
+						</size>
+						<size_raw>
+							<max x="45575.68" y="128290" z="116749.5"/>
+							<center x="390.625" y="0" z="-5.859375"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection030" tags="part animation  ">
+				<offset>
+					<position x="1.332235E+08" y="-6804923" z="1.408775E+07"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object017">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="60408.94" y="116554.1" z="116701.4"/>
+							<center x="281.25" y="171.875" z="-416.0156"/>
+						</size>
+						<size_raw>
+							<max x="60128.91" y="116382.4" z="117117.6"/>
+							<center x="281.25" y="171.875" z="-416.0156"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection031" tags="part animation  ">
+				<offset>
+					<position x="1.332798E+08" y="-7843965" z="1.163757E+07"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="4000"/>
+				</animations>
+				<parts>
+					<part name="Object018">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_l_planet_volcanolava"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="46593.75" y="108075.7" z="121063.5"/>
+							<center x="78.125" y="195.8008" z="-367.1875"/>
+						</size>
+						<size_raw>
+							<max x="46512.21" y="107879.9" z="121430.7"/>
+							<center x="78.125" y="195.8008" z="-367.1875"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection032" tags="part  ">
+				<offset>
+					<position x="-4664262" y="4950121" z="1.179747E+08"/>
+					<quaternion qx="-0" qy="0.5083754" qz="-0" qw="-0.8611355"/>
+				</offset>
+				<parts>
+					<part name="part_newasteroids02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_xenon_niv_b"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6543225" y="6595202" z="3699562"/>
+							<center x="-949666.5" y="-4226518" z="1932774"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="0" y="-250000" z="0"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection033" tags="part  ">
+				<offset>
+					<position x="-1180824" y="2252354" z="1.227828E+08"/>
+					<quaternion qx="-0" qy="0.5083754" qz="-0" qw="-0.8611355"/>
+				</offset>
+				<parts>
+					<part name="part_newasteroids04">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_xenon_niv_b"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="896048.3" y="894626.8" z="898199.8"/>
+							<center x="-51113.52" y="118507.8" z="160382.8"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection034" tags="part  ">
+				<offset>
+					<position x="-2013068" y="6707362" z="1.180433E+08"/>
+					<quaternion qx="-0" qy="0.5083754" qz="-0" qw="-0.8611355"/>
+				</offset>
+				<parts>
+					<part name="part_newasteroids05">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_xenon_niv_b"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6469308" y="8099809" z="4039408"/>
+							<center x="3997064" y="-7283010" z="2050102"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="0" y="-250000" z="0"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection035" tags="part  ">
+				<offset>
+					<position x="-5698109" y="-6005060" z="1.121257E+08"/>
+					<quaternion qx="-0.1887595" qy="-0.8647507" qz="-0.4621575" qw="5.464882E-02"/>
+				</offset>
+				<parts>
+					<part name="part_newasteroids01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_xenon_niv_b"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1290574" y="1289888" z="1303782"/>
+							<center x="40269.53" y="-107679.2" z="-35093.75"/>
+						</size>
+						<offset>
+							<position x="3.417969" y="-5.859375" z="7.8125"/>
+						</offset>
+						<pivot>
+							<offset>
+								<position x="96375" y="-153698.4" z="95727.91"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection036" tags="part  ">
+				<offset>
+					<position x="7274676" y="2307369" z="1.20649E+08"/>
+					<quaternion qx="0.4291895" qy="0.6470459" qz="0.2713259" qw="-0.5687796"/>
+				</offset>
+				<parts>
+					<part name="part_newasteroids06">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_xenon_niv_b"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1129996" y="1129516" z="1125498"/>
+							<center x="31053.71" y="59544.92" z="36898.44"/>
+						</size>
+						<offset>
+							<position x="-8.789063" y="13.67188" z="0"/>
+						</offset>
+						<pivot>
+							<offset>
+								<position x="0" y="-250000" z="0"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection037" tags="part  ">
+				<offset>
+					<position x="-2057613" y="-802059.6" z="1.231569E+08"/>
+					<quaternion qx="-0.6409289" qy="-0.4900338" qz="-0.5596436" qw="-0.1894096"/>
+				</offset>
+				<parts>
+					<part name="part_newasteroids007">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_xenon_niv_b"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="924032.9" y="923542" z="933489.5"/>
+							<center x="-49326.41" y="-34286.62" z="-46171.88"/>
+						</size>
+						<offset>
+							<position x="-8.300781" y="-6.164551" z="-7.8125"/>
+						</offset>
+						<pivot>
+							<offset>
+								<position x="96375" y="-153698.4" z="95727.91"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

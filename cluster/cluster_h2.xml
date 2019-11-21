@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_h2" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_h2_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni_sun" shadow="0" r="255" g="174" b="54" range="1E+11" shadowrange="1E+11" lighteffect="1" trigger="1" intensity="2">
+						<lightanimations/>
+						<offset>
+							<position x="0" y="46644.53" z="1.022256E+08"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient01" r="64" g="18" b="0" range="1E+08" intensity="1.5">
+						<lightanimations/>
+						<offset>
+							<position x="8.44207E+07" y="0" z="-4.103601E+07"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part animation ">
+				<offset>
+					<position x="-4614284" y="-402951.4" z="-1.021601E+08"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"/>
+				</animations>
+				<parts>
+					<part name="anim_lavamoon">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="planets.planet_moon_a2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2413583" y="2412274" z="2413586"/>
+							<center x="-0.4882813" y="1309.296" z="0"/>
+						</size>
+						<size_raw>
+							<max x="2413583" y="2410964" z="2413583"/>
+							<center x="0" y="1309.418" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part animation ">
+				<offset>
+					<position x="3.057279E+07" y="2925585" z="-1.41405E+07"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"/>
+				</animations>
+				<parts>
+					<part name="anim_moon">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="planets.planet_moon_a2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6120733" y="6119433" z="6120377"/>
+							<center x="0" y="-0.2441406" z="0"/>
+						</size>
+						<size_raw>
+							<max x="6118683" y="6119433" z="6120172"/>
+							<center x="0" y="-0.2441406" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part  ">
+				<offset>
+					<position x="3.057279E+07" y="2925585" z="-1.41405E+07"/>
+				</offset>
+				<parts>
+					<part name="part_moon_haze">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="planets.moon_01_red_haze_v2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6300553" y="6300553" z="6300553"/>
+							<center x="0" y="-0.2441406" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part  ">
+				<offset>
+					<position x="-4.045012E+07" y="-2.749421E+07" z="2.089348E+07"/>
+				</offset>
+				<parts>
+					<part name="part_asteroids">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="asteroids.ast_holeypattern_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8838064" y="1.597434E+07" z="2.66177E+07"/>
+							<center x="-2321676" y="2684016" z="-459900.4"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part  ">
+				<offset>
+					<position x="-1.512428E+07" y="1165765" z="-5.85515E+07"/>
+					<quaternion qx="-8.640999E-02" qy="0.1300295" qz="1.137612E-02" qw="-0.9876721"/>
+				</offset>
+				<parts>
+					<part name="part_giantsolarplant_f">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="x3.x3_lattice_support_beams"/>
+									<material id="3" ref="x3.x3_circular2"/>
+									<material id="4" ref="x3.x3_base_metal_plating"/>
+									<material id="5" ref="x3.x3_solarpanel"/>
+									<material id="7" ref="x3.x3_trims"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3767491" y="751299.7" z="7790876"/>
+							<center x="233505.9" y="-29120.97" z="165156.3"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part  ">
+				<offset>
+					<position x="-9673827" y="3073194" z="-6.44553E+07"/>
+				</offset>
+				<parts>
+					<part name="part_giantsolarplant_c">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="x3.x3_lattice_support_beams"/>
+									<material id="3" ref="x3.x3_trims"/>
+									<material id="4" ref="x3.x3_circular2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2149831" y="1209828" z="5236778"/>
+							<center x="74059.57" y="-470137.7" z="30476.56"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part  ">
+				<offset>
+					<position x="-1.522952E+07" y="3290969" z="-7.328297E+07"/>
+				</offset>
+				<parts>
+					<part name="part_giantsolarplant_a">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="x3.x3_lattice_support_beams"/>
+									<material id="3" ref="x3.x3_trims"/>
+									<material id="4" ref="x3.x3_circular2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1842280" y="528398.6" z="3189255"/>
+							<center x="14015.63" y="0" z="-4484.375"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part  ">
+				<offset>
+					<position x="-8224238" y="4509932" z="-6.472179E+07"/>
+				</offset>
+				<parts>
+					<part name="part_giantsolarplant_b">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="x3.x3_lattice_support_beams"/>
+									<material id="3" ref="x3.x3_trims"/>
+									<material id="4" ref="x3.x3_circular2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3543528" y="322524.9" z="6390805"/>
+							<center x="27120.12" y="-13362.3" z="-2820.313"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection09" tags="part  ">
+				<offset>
+					<position x="-2.282273E+07" y="-420301.8" z="-5.291161E+07"/>
+					<quaternion qx="-0" qy="0.2588191" qz="-0" qw="-0.9659258"/>
+				</offset>
+				<parts>
+					<part name="part_giantsolarplant_d">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="x3.x3_lattice_support_beams"/>
+									<material id="3" ref="x3.x3_trims"/>
+									<material id="4" ref="x3.x3_circular2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2807562" y="2395693" z="6371157"/>
+							<center x="44912.11" y="-10602.17" z="50746.09"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection10" tags="part  ">
+				<offset>
+					<position x="-3.173552E+07" y="-4813735" z="-4.622044E+07"/>
+					<quaternion qx="-0" qy="0.2588191" qz="-0" qw="-0.9659258"/>
+				</offset>
+				<parts>
+					<part name="part_giantsolarplant_e">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="x3.x3_lattice_support_beams"/>
+									<material id="3" ref="x3.x3_trims"/>
+									<material id="4" ref="x3.x3_circular2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1796578" y="2100405" z="4079907"/>
+							<center x="19578.13" y="35032.71" z="58726.56"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection11" tags="part  ">
+				<offset>
+					<position x="-3.665242E+07" y="-9982223" z="-4.057896E+07"/>
+					<quaternion qx="-0.2058957" qy="-4.268298E-02" qz="8.989599E-03" qw="-0.9776013"/>
+				</offset>
+				<parts>
+					<part name="part_giantsolarplant_g">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="x3.x3_lattice_support_beams"/>
+									<material id="3" ref="x3.x3_trims"/>
+									<material id="4" ref="x3.x3_circular2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1796578" y="2100405" z="4079907"/>
+							<center x="50648.44" y="15491.21" z="47480.47"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection12" tags="part  ">
+				<offset>
+					<position x="-3.704968E+07" y="-1.361268E+07" z="-3.756638E+07"/>
+					<quaternion qx="-0.3703236" qy="-0" qz="-0" qw="-0.9289028"/>
+				</offset>
+				<parts>
+					<part name="part_giantsolarplant_h">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="x3.x3_lattice_support_beams"/>
+									<material id="3" ref="x3.x3_circular2"/>
+									<material id="4" ref="x3.x3_base_metal_plating"/>
+									<material id="5" ref="x3.x3_solarpanel"/>
+									<material id="7" ref="x3.x3_trims"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3767491" y="751299.7" z="7790875"/>
+							<center x="268953.1" y="-69866.21" z="73699.22"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection13" tags="part  ">
+				<offset>
+					<position x="0" y="0.1511718" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_bg_stars">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_d_stars_bright"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.356886E+09" y="1.356886E+09" z="1.356886E+09"/>
+							<center x="0" y="-125.1512" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection14" tags="part  ">
+				<offset>
+					<position x="0" y="0.1511718" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_bg_stars_dim">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_d_stars_dim"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.586896E+09" y="1.586896E+09" z="1.586896E+09"/>
+							<center x="0" y="-125.1512" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection15" tags="part  ">
+				<offset>
+					<position x="0" y="0.1511718" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.black"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.88099E+09" y="1.88099E+09" z="1.88099E+09"/>
+							<center x="0" y="-0.1511718" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection16" tags="part animation textureanimation  ">
+				<offset>
+					<position x="5911.682" y="-193624" z="1.245036E+08"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"/>
+				</animations>
+				<parts>
+					<part name="anim_sun_smalla_layer1">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_g_material1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.05174E+07" y="2.073339E+07" z="2.05174E+07"/>
+							<center x="0.4272461" y="0.9765625" z="0"/>
+						</size>
+						<size_raw>
+							<max x="2.05174E+07" y="2.073339E+07" z="2.05174E+07"/>
+							<center x="0.4272461" y="0.9765625" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection17" tags="part  ">
+				<offset>
+					<position x="0" y="0.1511718" z="0"/>
+					<quaternion qx="3.202554E-08" qy="-0.8433916" qz="-5.027006E-08" qw="-0.5372995"/>
+				</offset>
+				<parts>
+					<part name="part_bg01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_d_nebula_mask"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.514637E+09" y="1.514637E+09" z="1.514637E+09"/>
+							<center x="-1.572193E-15" y="-0.1511718" z="7.331267E-16"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection18" tags="part  ">
+				<offset>
+					<position x="4.610896E+07" y="-134.1855" z="-4.931154E+07"/>
+				</offset>
+				<parts>
+					<part name="part_moonb">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="planets.planet_moon_a2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8440529" y="8438808" z="8439088"/>
+							<center x="0" y="0.3964603" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection19" tags="part animation textureanimation  ">
+				<offset>
+					<position x="4.610896E+07" y="-134.1855" z="-4.931154E+07"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="108000"/>
+				</animations>
+				<parts>
+					<part name="anim_planetclouds_big_layer004">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_d_clouds"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8560853" y="8650973" z="8560852"/>
+							<center x="0" y="-0.5801022" z="0"/>
+						</size>
+						<size_raw>
+							<max x="8560853" y="8650974" z="8560851"/>
+							<center x="0" y="-9.182096E-02" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="108000" value="4" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="108000" value="48"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection20" tags="part  ">
+				<offset>
+					<position x="4.610896E+07" y="-134.1855" z="-4.931154E+07"/>
+				</offset>
+				<parts>
+					<part name="part_planet_haze">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="planets.moon_01_red_haze_v2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="9223857" y="9224258" z="9226395"/>
+							<center x="0" y="0.3964603" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

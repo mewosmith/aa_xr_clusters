@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+  <!-- <replace sel="//index[@entry name='engineparts']">
+
+  </replace> -->
+  <add sel="/index">
+	<entry name="planet_sun_a" value="extensions\aa_xr_clusters\planets\planet_sun_a"/>
+	<entry name="planet_sun_A" value="extensions\aa_xr_clusters\planets\planet_sun_A"/>
+	<entry name="cluster_a" value="extensions\aa_xr_clusters\cluster\cluster_a"/>
+	<entry name="cluster_b" value="extensions\aa_xr_clusters\cluster\cluster_b"/>
+	<entry name="cluster_c" value="extensions\aa_xr_clusters\cluster\cluster_c"/>
+	<entry name="cluster_d" value="extensions\aa_xr_clusters\cluster\cluster_d"/>
+	<entry name="cluster_e" value="extensions\aa_xr_clusters\cluster\cluster_e"/>
+	<entry name="cluster_f" value="extensions\aa_xr_clusters\cluster\cluster_f"/>
+	<entry name="cluster_g" value="extensions\aa_xr_clusters\cluster\cluster_g"/>
+	<entry name="cluster_h" value="extensions\aa_xr_clusters\cluster\cluster_h"/>
+	<entry name="cluster_htest" value="extensions\aa_xr_clusters\cluster\cluster_htest"/>
+	<entry name="cluster_i" value="extensions\aa_xr_clusters\cluster\cluster_i"/>
+	<entry name="cluster_black" value="extensions\aa_xr_clusters\cluster\cluster_black"/>
+	<entry name="cluster_c_v2" value="extensions\aa_xr_clusters\cluster\cluster_c_v2"/>
+	<entry name="cluster_c_v3" value="extensions\aa_xr_clusters\cluster\cluster_c_v3"/>
+	<entry name="cluster_c_v4" value="extensions\aa_xr_clusters\cluster\cluster_c_v4"/>
+	<entry name="cluster_black_wlight" value="extensions\aa_xr_clusters\cluster\cluster_black_wlight"/>
+	<entry name="cluster_h2" value="extensions\aa_xr_clusters\cluster\cluster_h2"/>
+	<entry name="cluster_h4" value="extensions\aa_xr_clusters\cluster\cluster_h4"/>
+	<entry name="cluster_darkspace" value="extensions\aa_xr_clusters\cluster\cluster_darkspace"/>
+	<entry name="cluster_c_v5" value="extensions\aa_xr_clusters\cluster\cluster_c_v5"/>
+	<entry name="cluster_i2" value="extensions\aa_xr_clusters\cluster\cluster_i2"/>
+	<entry name="cluster_c_v6" value="extensions\aa_xr_clusters\cluster\cluster_c_v6"/>
+	<entry name="cluster_sm_background" value="extensions\aa_xr_clusters\cluster\cluster_sm_background"/>
+	<entry name="cluster_sm2_background" value="extensions\aa_xr_clusters\cluster\cluster_sm2_background"/>
+	<entry name="cluster_t" value="extensions\aa_xr_clusters\cluster\cluster_t"/>
+	<entry name="cluster_t_v2" value="extensions\aa_xr_clusters\cluster\cluster_t_v2"/>
+	<entry name="cluster_sm_te_background" value="extensions\aa_xr_clusters\cluster\cluster_sm_te_background"/>
+	<entry name="cluster_m" value="extensions\aa_xr_clusters\cluster\cluster_m"/>
+	<entry name="cluster_n" value="extensions\aa_xr_clusters\cluster\cluster_n"/>
+	<entry name="cluster_l" value="extensions\aa_xr_clusters\cluster\cluster_l"/>
+	<entry name="cluster_sm_hol_background" value="extensions\aa_xr_clusters\cluster\cluster_sm_hol_background"/>
+  </add>
+</diff>

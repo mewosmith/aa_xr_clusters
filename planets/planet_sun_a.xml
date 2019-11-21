@@ -1,0 +1,32 @@
+<components>
+    <component name="planet_sun_A" class="destructible">
+        <properties>
+            <hull max="200000" />
+        </properties>
+        <source geometry="extensions\aa_xr_clusters\planets\planet_sun_A_data" />
+        <layers>
+            <layer>
+                <waypoints />
+                <lights />
+            </layer>
+        </layers>
+        <connections>
+            <connection name="container" tags="contents" value="0" optional="0" />
+            <connection name="position" tags="position" value="1" optional="1" />
+            <connection name="space" tags="destructible">
+                <offset />
+            </connection>
+            <connection name="Connection01" tags="part  ">
+                <offset />
+                <parts>
+                    <part name="part_planet_sun_a">
+                        <size>
+                            <max x="-43.72171" y="-45.26404" z="-45.98283" />
+                            <center x="2.006004" y="1.463316" z="0" />
+                        </size>
+                    </part>
+                </parts>
+            </connection>
+        </connections>
+    </component>
+</components>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+  <!-- <replace sel="//index[@entry name='engineparts']">
+
+  </replace> -->
+  <add sel="/index">
+    <entry name="cluster_sm_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_sm_bg_macro"/>
+	<entry name="cluster_sm_te_background_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_sm_te_background_macro"/>
+	<entry name="cluster_sm_hol_background_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_sm_hol_background_macro"/>
+	<entry name="cluster_a_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_a_bg_macro"/>
+	<entry name="cluster_b_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_b_bg_macro"/>
+	<entry name="cluster_c_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_c_bg_macro"/>
+	<entry name="cluster_d_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_d_bg_macro"/>
+	<entry name="cluster_e_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_e_bg_macro"/>
+	<entry name="cluster_f_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_f_bg_macro"/>
+	<entry name="cluster_g_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_g_bg_macro"/>
+	<entry name="cluster_h_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_h_bg_macro"/>
+	<!--<entry name="cluster_black_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_black_bg_macro" />-->
+	<entry name="cluster_black_wlight_bg_macro" value="extensions\aa_xr_clusters\cluster\macros\cluster_black_wlight_bg_macro"/>
+  </add>
+</diff>

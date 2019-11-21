@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_black_wlight" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_black_wlight_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<ambient name="XU Ambient01" r="116" g="253" b="255" range="200000" intensity="0.25">
+						<lightanimations/>
+						<offset>
+							<position x="43578.79" y="0" z="31756.11"/>
+						</offset>
+					</ambient>
+					<omni name="XU Omni01" shadow="0" r="255" g="236" b="178" range="200000" shadowrange="200000" lighteffect="1" trigger="1" intensity="1.5">
+						<lightanimations/>
+						<offset>
+							<position x="-60000" y="60000" z="-60000"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.white"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="412602" y="412602" z="412602"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

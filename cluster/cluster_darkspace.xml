@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_darkspace" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_darkspace_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<ambient name="XU Ambient01" r="57" g="57" b="57" range="100000" intensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="7.150787E+08" y="0" z="-7.098267E+07"/>
+						</offset>
+					</ambient>
+					<omni name="XU Omni01" shadow="0" r="255" g="237" b="187" range="2.182E+10" shadowrange="2.182E+10" lighteffect="1" lenseffect="sun_maelstrom" trigger="1" intensity="1.5">
+						<lightanimations/>
+						<offset>
+							<position x="2.811657E+08" y="1.584203E+08" z="1.39435E+08"/>
+							<quaternion qx="0.7071068" qy="-0" qz="-0" qw="-0.7071068"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset>
+					<position x="3.814697E-06" y="0" z="7.629395E-06"/>
+				</offset>
+				<parts>
+					<part name="part_background_nebula">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.cluster_dlc1_part1"/>
+									<material id="2" ref="environments.cluster_dlc1_part2"/>
+									<material id="3" ref="environments.cluster_dlc1_part3"/>
+									<material id="4" ref="environments.cluster_dlc1_part4"/>
+									<material id="5" ref="environments.cluster_dlc1_stars"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.418857E+08" y="4.423387E+08" z="4.419887E+08"/>
+							<center x="31.25" y="-15.625" z="-7.629395E-06"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

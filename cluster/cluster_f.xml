@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<components>
+	<component name="cluster_f" class="celestialbody">
+		<source geometry="extensions\aa_xr_clusters\cluster\cluster_f_data"></source>
+		<layers>
+			<layer>
+				<waypoints></waypoints>
+				<lights>
+					<omni name="XU Omni02" shadow="0" r="255" g="255" b="255" range="5E+08" shadowrange="5E+08" lighteffect="1" trigger="1" intensity="10">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="5.820206E+07" y="0" z="0"></position>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient01" r="75" g="0" b="0" range="100000" intensity="1">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-2.170958E+07" y="0" z="-3.570498E+07"></position>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"></connection>
+			<connection name="position" tags="position" value="1" optional="1"></connection>
+			<connection name="space" tags="celestialbody">
+				<offset></offset>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset></offset>
+				<parts>
+					<part name="part_bg">
+						<size>
+							<max x="7.59153E+07" y="7.59153E+07" z="7.59153E+07"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ">
+				<offset>
+					<position x="3.684705E+07" y="0" z="-4.426983E+07"></position>
+				</offset>
+				<parts>
+					<part name="part_icemoon">
+						<size>
+							<max x="8566237" y="8656415" z="8566236"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>
