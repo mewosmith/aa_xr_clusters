@@ -4,37 +4,69 @@
 
   </replace> -->
   <add sel="/index">
+	<!-- tppirate_cluster_99_macro black -->
 	<entry name="planet_sun_a" value="extensions\aa_xr_clusters\planets\planet_sun_a"/>
+	<!-- tppirate_cluster_98_macro black -->
 	<entry name="planet_sun_A" value="extensions\aa_xr_clusters\planets\planet_sun_A"/>
+	<!-- tppirate_cluster_97_macro works -->
 	<entry name="cluster_a" value="extensions\aa_xr_clusters\cluster\cluster_a"/>
+	<!-- tppirate_cluster_96_macro lime green (ok now) -->
 	<entry name="cluster_b" value="extensions\aa_xr_clusters\cluster\cluster_b"/>
+	<!-- tppirate_cluster_95_macro works, but gives stations a red glow? -->
 	<entry name="cluster_c" value="extensions\aa_xr_clusters\cluster\cluster_c"/>
+	<!-- tppirate_cluster_94_macro lime green - shader issue -->
 	<entry name="cluster_d" value="extensions\aa_xr_clusters\cluster\cluster_d"/>
+	<!-- tppirate_cluster_93_macro works -->
 	<entry name="cluster_e" value="extensions\aa_xr_clusters\cluster\cluster_e"/>
+	<!-- tppirate_cluster_92_macro works -->
 	<entry name="cluster_f" value="extensions\aa_xr_clusters\cluster\cluster_f"/>
+	<!-- tppirate_cluster_91_macro lime green (ok now) -->
 	<entry name="cluster_g" value="extensions\aa_xr_clusters\cluster\cluster_g"/>
+	<!-- tppirate_cluster_90_macro lime green - shader issue -->
 	<entry name="cluster_h" value="extensions\aa_xr_clusters\cluster\cluster_h"/>
+	<!-- tppirate_cluster_89_macro black - no macro -->
 	<entry name="cluster_htest" value="extensions\aa_xr_clusters\cluster\cluster_htest"/>
+	<!-- tppirate_cluster_88_macro works (mewo likes a lot) -->
 	<entry name="cluster_i" value="extensions\aa_xr_clusters\cluster\cluster_i"/>
 	<entry name="cluster_black" value="extensions\aa_xr_clusters\cluster\cluster_black"/>
+	<!-- tppirate_cluster_87_macro works -->
 	<entry name="cluster_c_v2" value="extensions\aa_xr_clusters\cluster\cluster_c_v2"/>
+	<!-- tppirate_cluster_86_macro works (with glows) -->
+	<!-- ctd with cluster_b_stars_bright shader -->
 	<entry name="cluster_c_v3" value="extensions\aa_xr_clusters\cluster\cluster_c_v3"/>
+	<!-- tppirate_cluster_85_macro works but glows -->
 	<entry name="cluster_c_v4" value="extensions\aa_xr_clusters\cluster\cluster_c_v4"/>
 	<entry name="cluster_black_wlight" value="extensions\aa_xr_clusters\cluster\cluster_black_wlight"/>
+	<!-- tppirate_cluster_84_macro lime green - shader issue -->
+	<!-- kinda just sucks - missing planet or star and clouds -->
 	<entry name="cluster_h2" value="extensions\aa_xr_clusters\cluster\cluster_h2"/>
+	<!-- tppirate_cluster_83_macro lime green - shader issue -->
 	<entry name="cluster_h4" value="extensions\aa_xr_clusters\cluster\cluster_h4"/>
+	<!-- tppirate_cluster_82_macro works -->
 	<entry name="cluster_darkspace" value="extensions\aa_xr_clusters\cluster\cluster_darkspace"/>
+	<!-- tppirate_cluster_81_macro works with glowing asteroids -->
 	<entry name="cluster_c_v5" value="extensions\aa_xr_clusters\cluster\cluster_c_v5"/>
+	<!-- tppirate_cluster_80_macro works -->
 	<entry name="cluster_i2" value="extensions\aa_xr_clusters\cluster\cluster_i2"/>
+	<!-- meditech_Cluster_01_macro works, but glowing asteroids? -->
 	<entry name="cluster_c_v6" value="extensions\aa_xr_clusters\cluster\cluster_c_v6"/>
+	<!-- tpthree_cluster1158_macro works -->
 	<entry name="cluster_sm_background" value="extensions\aa_xr_clusters\cluster\cluster_sm_background"/>
+	<!-- tpthree_cluster178_macro works, but golden glow? -->
 	<entry name="cluster_sm2_background" value="extensions\aa_xr_clusters\cluster\cluster_sm2_background"/>
+	<!-- tpthree_cluster177_macro works -->
 	<entry name="cluster_t" value="extensions\aa_xr_clusters\cluster\cluster_t"/>
+	<!-- tpthree_cluster176_macro pink -->
 	<entry name="cluster_t_v2" value="extensions\aa_xr_clusters\cluster\cluster_t_v2"/>
+	<!-- tpthree_cluster195_macro pink with gold glow? -->
 	<entry name="cluster_sm_te_background" value="extensions\aa_xr_clusters\cluster\cluster_sm_te_background"/>
+	<!-- tpthree_cluster196_macro pink -->
 	<entry name="cluster_m" value="extensions\aa_xr_clusters\cluster\cluster_m"/>
+	<!-- tpthree_cluster215_macro pink -->
 	<entry name="cluster_n" value="extensions\aa_xr_clusters\cluster\cluster_n"/>
+	<!-- tpthree_cluster110_macro pink -->
 	<entry name="cluster_l" value="extensions\aa_xr_clusters\cluster\cluster_l"/>
+	<!-- tpthree_cluster1217_macro pink -->
 	<entry name="cluster_sm_hol_background" value="extensions\aa_xr_clusters\cluster\cluster_sm_hol_background"/>
   </add>
 </diff>
