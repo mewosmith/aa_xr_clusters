@@ -28,7 +28,7 @@
   </replace>
   <replace sel="//material[@name='cluster_d_nebula_mask']">
     <!-- intentionally broken shader -->
-    <material name="cluster_d_nebula_mask" shader="extensions\aa_xr_clusters\shaderfx\high\XU_simple_background_neb.fx" blendmode="ADDITIVE" preview="none">
+    <material name="cluster_d_nebula_mask" shader="extensions\aa_xr_clusters\XU_simple_background_neb.fx" blendmode="ADDITIVE" preview="none">
       <properties>
         <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\cluster_d_gui_background_diff"></property>
         <property type="BitMap" name="diffuse_detail_map" value="extensions\aa_xr_clusters\cluster\textures\cluster_d_background_detail_diff"></property>
@@ -37,7 +37,7 @@
     </material>
   </replace>
   <!-- <replace sel="//material[@name='cluster_d_stars_bright']">
-    <material name="cluster_d_stars_bright" shader="extensions\aa_xr_clusters\shaderfx\high\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+    <material name="cluster_d_stars_bright" shader="extensions\aa_xr_clusters\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
       <properties>
         <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\stars_bright_few_diff"></property>
         <property type="Float" name="diffuseStr" value="2.5"></property>
@@ -45,7 +45,7 @@
     </material>
   </replace> -->
   <!-- <replace sel="//material[@name='cluster_d_stars_dim']">
-    <material name="cluster_d_stars_dim" shader="extensions\aa_xr_clusters\shaderfx\high\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+    <material name="cluster_d_stars_dim" shader="extensions\aa_xr_clusters\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
       <properties>
         <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\stars_dim_lots_diff"></property>
         <property type="Float" name="diffuseStr" value="1.25"></property>
@@ -53,7 +53,7 @@
     </material>
   </replace> -->
   <!-- <add sel="//collection/[@name='environments']">
-    <material name="stars_v4" shader="extensions\aa_xr_clusters\shaderfx\high\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+    <material name="stars_v4" shader="extensions\aa_xr_clusters\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
       <properties>
         <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\stars_special_diff"></property>
         <property type="Float" name="diffuseStr" value="1.0"></property>
@@ -63,7 +63,7 @@
     </material>
   </add> -->
   <!-- <replace sel="//material[@name='cluster_d_sunstreak']">
-    <material name="cluster_d_sunstreak" shader="extensions\aa_xr_clusters\shaderfx\high\XU_effects_layered_unlit_naf.fx" blendmode="ADDITIVE" preview="none">
+    <material name="cluster_d_sunstreak" shader="extensions\aa_xr_clusters\XU_effects_layered_unlit_naf.fx" blendmode="ADDITIVE" preview="none">
       <properties>
         <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\sun_streaks_diff"></property>
         <property type="Float" name="diffuseStr" value="4.0"></property>
@@ -82,7 +82,7 @@
     </material>
   </replace> -->
   <!-- <replace sel="//material[@name='cluster_d_sunlines']">
-    <material name="cluster_d_sunlines" shader="extensions\aa_xr_clusters\shaderfx\high\XU_effects_layered_unlit2_new.fx" blendmode="ADDITIVE" preview="none">
+    <material name="cluster_d_sunlines" shader="extensions\aa_xr_clusters\XU_effects_layered_unlit2_new.fx" blendmode="ADDITIVE" preview="none">
       <properties>
         <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\sun_lines_diff"></property>
         <property type="Float" name="diffuseStr" value="2.0"></property>
@@ -106,7 +106,7 @@
     </material>
   </replace> -->
   <!-- <replace sel="//material[@name='moon_01_lava_v2']">
-    <material name="moon_01_lava_v2" shader="extensions\aa_xr_clusters\shaderfx\high\XU_surface_test.fx" blendmode="NONE" preview="none">
+    <material name="moon_01_lava_v2" shader="extensions\aa_xr_clusters\XU_surface_test.fx" blendmode="NONE" preview="none">
       <properties>
         <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\moon_01_lava_diff"></property>
         <property type="BitMap" name="specular_map" value="assets\environments\cluster\texture\smoon_01_lava_spec"></property>
@@ -119,7 +119,7 @@
     </material>
   </replace> -->
   <!-- <replace sel="//material[@name='moon_01_red_haze_v2']">
-    <material name="moon_01_red_haze_v2" shader="extensions\aa_xr_clusters\shaderfx\high\XU_planet_haze_new_hdr.fx" blendmode="HAZEBLEND" preview="none">
+    <material name="moon_01_red_haze_v2" shader="extensions\aa_xr_clusters\XU_planet_haze_new_hdr.fx" blendmode="HAZEBLEND" preview="none">
       <properties>
         <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\haze_red_diff"></property>
         <property type="Float" name="mat_diff_light_str" value="1.0"></property>
@@ -524,7 +524,7 @@
         <property type="Float" name="diffuseStr" value="1.0" />
       </properties>
     </material>
-    <material name="stars" shader="shaderfx\high\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+    <material name="stars" shader="XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
         <properties>
           <property type="BitMap" name="diffuse_map" value="assets\textures\environments\stars_diff"></property>
           <property type="Float" name="diffuseStr" value="2.0"></property>
@@ -532,54 +532,262 @@
         <variations></variations>
         <areas></areas>
       </material>
-      <material name="stars_v2" shader="shaderfx\high\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+      <material name="stars_v2" shader="XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
         <properties>
-          <property type="BitMap" name="diffuse_map" value="assets\textures\environments\stars_v2_diff"></property>
+          <property type="BitMap" name="diffuse_map" value="assets\legacy\textures\environments\stars_v2_diff"></property>
           <property type="Float" name="diffuseStr" value="1.0"></property>
         </properties>
         <variations></variations>
         <areas></areas>
       </material>
-      <material name="stars_v2b" shader="shaderfx\high\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+      <material name="stars_v2b" shader="XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
         <properties>
-          <property type="BitMap" name="diffuse_map" value="assets\textures\environments\stars_v2_diff"></property>
+          <property type="BitMap" name="diffuse_map" value="assets\legacy\textures\environments\stars_v2_diff"></property>
           <property type="Float" name="diffuseStr" value="1.0"></property>
         </properties>
         <variations></variations>
         <areas></areas>
       </material>
-      <!-- <material name="stars_v2b_few" shader="shaderfx\high\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+      <material name="stars_v2b_few" shader="XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
         <properties>
-          <property type="BitMap" name="diffuse_map" value="assets\textures\environments\stars_v2_few2_diff"></property>
-          <property type="Float" name="diffuseStr" value="1.0"></property>
-        </properties>
-        <variations></variations>
-        <areas></areas>
-      </material> -->
-      <material name="stars_v2c" shader="shaderfx\high\XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
-        <properties>
-          <property type="BitMap" name="diffuse_map" value="assets\textures\environments\stars_v2_diff"></property>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\stars_v2_few2_diff"></property>
           <property type="Float" name="diffuseStr" value="1.0"></property>
         </properties>
         <variations></variations>
         <areas></areas>
       </material>
-      <!-- <material name="stars_v3" shader="shaderfx\high\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+      <material name="stars_v2c" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
         <properties>
-          <property type="BitMap" name="diffuse_map" value="assets\textures\environments\stars_v3_diff"></property>
+          <property type="BitMap" name="diffuse_map" value="assets\legacy\textures\environments\stars_v2_diff"></property>
           <property type="Float" name="diffuseStr" value="1.0"></property>
         </properties>
         <variations></variations>
         <areas></areas>
-      </material> -->
-      <!-- <material name="stars_v4" shader="shaderfx\high\XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+      </material>
+      <material name="stars_v3" shader="XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
         <properties>
-          <property type="BitMap" name="diffuse_map" value="assets\environments\cluster\textures\stars_special_diff"></property>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\stars_v3_diff"></property>
           <property type="Float" name="diffuseStr" value="1.0"></property>
         </properties>
         <variations></variations>
         <areas></areas>
-      </material> -->
+      </material>
+      <material name="stars_v4" shader="XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\stars_special_diff"></property>
+          <property type="Float" name="diffuseStr" value="1.0"></property>
+        </properties>
+        <variations></variations>
+        <areas></areas>
+      </material>
+      <material name="cluster_c_earthlike_haze" shader="XU_planet_haze_new_hdr.fx" blendmode="ADDITIVE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\haze_earth_new"></property>
+          <property type="Float" name="mat_diff_light_str" value="3.0"></property>
+          <property type="Float" name="mat_spec_light_str" value="3.0"></property>
+          <property type="Float" name="mat_diff_light_power" value="4.2"></property>
+          <property type="Float" name="mat_spec_light_power" value="25.0"></property>
+          <property type="Float" name="mat_spec_light_func" value="0.0"></property>
+          <property type="Float" name="environmentStr" value="0.0"></property>
+        </properties>
+      </material>
+ 
+      <material name="cluster_m_gasgiant" shader="XU_gasgiant_v2_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\planet_gasgiant2_desat"></property>
+          <property type="BitMap" name="diffuse_detail_map" value="extensions\aa_xr_clusters\planets\textures\planet_gasgiant2"></property>
+          <property type="BitMap" name="diffuse_paint_map" value="extensions\aa_xr_clusters\planets\textures\planet_gasgiant2_paint"></property>
+          <property type="BitMap" name="color_age_map" value="extensions\aa_xr_clusters\planets\textures\planet_gasgiant_rotation"></property>
+          <property type="BitMap" name="normal_map" value="extensions\aa_xr_clusters\planets\textures\planet_gasgiant_normal"></property>
+          <!--property type="BitMap" name="color_glow_map" value="extensions\aa_xr_clusters\planets\textures\planet_gasgiant2_glow"></property-->
+          <property type="Float" name="color_glowStr" value="2.0"></property>
+          <property type="Float" name="normalStr" value="0.15"></property>
+          <property type="Float" name="environmentStr" value="0.0"></property>
+          <property type="Float" name="mat_diff_light_str" value="1.0"></property>
+          <property type="Float" name="mat_diff_light_power" value="6.2"></property>
+          <property type="Float" name="mat_spec_light_str" value="1.0"></property>
+          <property type="Float" name="mat_spec_light_power" value="1.0"></property>
+        </properties>
+      </material>
+      <material name="cluster_m_gasgiant_haze" shader="XU_planet_haze_hdr.fx" blendmode="ADDITIVE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\planet_haze_gray1b_diff"></property>
+          <property type="Float" name="mat_diff_light_str" value="1.000"></property>
+          <property type="Float" name="mat_spec_light_str" value="0.20"></property>
+          <property type="Float" name="mat_diff_light_power" value="5.6"></property>
+          <property type="Float" name="mat_spec_light_power" value="10.0"></property>
+          <property type="Float" name="mat_spec_light_func" value="1.0"></property>
+          <property type="Float" name="diffuseStr" value="1.5"></property>
+          <property type="Color" name="color_emissive" r="255" g="255" b="255" a="255" value="(color 255 255 255)"></property>
+          <!--property type="BitMap" name="diffuse2_map" value="extensions\aa_xr_clusters\planets\textures\planet_sun_A3_diff"></property-->
+          <!--property type="BitMap" name="diffuse3_map" value="extensions\aa_xr_clusters\planets\textures\planet_sun_A3_diff"></property-->
+          <property type="Float" name="environmentStr" value="0.0"></property>
+        </properties>
+      </material>
+      <material name="cluster_m_moon" shader="XU_surface_test.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="Float" name="mat_spec_light_func" value="0.0"/>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\OL_Moon2a_diff"/>
+          <property type="Float" name="mat_smoothness" value="0.0"/>
+          <property type="Float" name="mat_metallness" value="0.0"/>
+          <property type="Float" name="mat_dynamicGlow" value="0.0"/>
+          <property type="BitMap" name="normal_map" value="extensions\aa_xr_clusters\planets\textures\OL_Moon2a_normal"/>
+          <property type="Float" name="normalStr" value="0.2"/>
+        </properties>
+      </material>
+      <material name="cluster_m_planet" shader="XU_planet2_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="Color" name="color_emissive" r="25" g="40" b="53" a="255" value="(color 25 40 53)"/>
+          <property type="Float" name="mat_spec_light_power" value="4.0"/>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\planets_jungle_diff"/>
+          <property type="Float" name="mat_diff_light_power" value="6.2"/>
+          <property type="Float" name="mat_smoothness" value="0.91"/>
+          <property type="Float" name="mat_metallness" value="0.83"/>
+          <property type="Float" name="mat_spec_light_str" value="1.0"/>
+          <property type="Color" name="color_water" r="25" g="40" b="53" a="255" value="(color 25.5 40.8 53.55)"/>
+          <property type="BitMap" name="diffuse_paint_map" value="extensions\aa_xr_clusters\planets\textures\planet_hol1_diff"/>
+          <property type="BitMap" name="diffuse_detail_map" value="extensions\aa_xr_clusters\planets\textures\planets_jungle_diff"/>
+          <property type="BitMap" name="normal_map" value="extensions\aa_xr_clusters\planets\textures\OL_Moon3a_normal"/>
+          <property type="Float" name="normalStr" value="0.1"/>
+          <property type="BitMap" name="normal_detail_map" value="extensions\aa_xr_clusters\planets\textures\planets_poison_climate_diff"/>
+        </properties>
+      </material>
+      <material name="cluster_m_planet_haze" shader="XU_planet_haze_hdr.fx" blendmode="ADDITIVE" preview="none">
+        <properties>
+          <property type="Color" name="color_emissive" r="255" g="255" b="255" a="0" value="(color 255 255 255 0)"/>
+          <property type="Float" name="mat_diff_light_power" value="6.1"/>
+          <property type="Float" name="mat_spec_light_power" value="6.0"/>
+          <property type="BitMap" name="diffuse_map" value="assets\legacy\textures\environments\planet_haze_lightblue3_diff"/>
+          <property type="Float" name="diffuseStr" value="2.0"></property>
+        </properties>
+      </material>
+      <material name="cluster_m_planet_clouds" shader="XU_cloud_HDR.fx" blendmode="ALPHA8" preview="none">
+        <properties>
+          <property type="Float" name="mat_diff_light_str" value="10.0"/>
+          <property type="Float" name="mat_diff_light_power" value="16.0"/>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\earth_clouds_diff"/>
+          <property type="Float" name="mat_diff2_light_str" value="1.0"/>
+          <property type="Float" name="mat_diff2_light_power" value="8.0"/>
+          <property type="BitMap" name="normal_map" value="extensions\aa_xr_clusters\planets\textures\earth_clouds_normal"/>
+          <property type="BitMap" name="mask_map" value="extensions\aa_xr_clusters\planets\textures\earth_clouds_diff"/>
+          <property type="Float" name="maskStr" value="5.0"/>
+        </properties>
+      </material>
+      <material name="cluster_m_background" shader="extensions\aa_xr_clusters\XU_simple_background_neb.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\cluster_m_v2b_gui_diff"/>
+          <property type="BitMap" name="diffuse_detail_map" value="extensions\aa_xr_clusters\cluster\textures\cluster_a_nebular_02c_diff"/>
+          <property type="Float" name="diffuseStr" value="1.20"/>
+        </properties>
+      </material>
+      <material name="cluster_l_background" shader="extensions\aa_xr_clusters\XU_simple_background_neb.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\cluster_l_gui_diff"/>
+          <property type="BitMap" name="diffuse_detail_map" value="extensions\aa_xr_clusters\cluster\textures\cluster_a_nebular_02c_diff"/>
+          <property type="Float" name="diffuseStr" value="1.0"/>
+        </properties>
+      </material>
+      <material name="cluster_l_planet" shader="XU_planet2_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="Color" name="color_emissive" r="25" g="40" b="53" a="255" value="(color 25 40 53)"/>
+          <property type="Float" name="mat_spec_light_power" value="4.0"/>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\cl_l_planet_diff"/>
+          <property type="Float" name="mat_diff_light_power" value="6.2"/>
+          <property type="Float" name="mat_smoothness" value="0.0"/>
+          <property type="Float" name="mat_metallness" value="0.0"/>
+          <property type="Float" name="mat_spec_light_str" value="1.0"/>
+          <property type="Color" name="color_water" r="25" g="40" b="53" a="255" value="(color 25.5 40.8 53.55)"/>
+          <property type="Float" name="waterlevel" value="0.0"/>
+          <property type="BitMap" name="diffuse_paint_map" value="extensions\aa_xr_clusters\planets\textures\planet_poison_rivers_continents_HD"/>
+          <property type="BitMap" name="normal_map" value="extensions\aa_xr_clusters\planets\textures\cl_l_planet_normal"/>
+          <property type="Float" name="normalStr" value="0.1"/>
+          <property type="BitMap" name="normal_detail_map" value="extensions\aa_xr_clusters\planets\textures\cluster_l_planet_climate_diff"/>
+        </properties>
+      </material>
+      <material name="cluster_l_planet_haze" shader="XU_planet_haze_hdr.fx" blendmode="ADDITIVE" preview="none">
+        <properties>
+          <property type="Color" name="color_emissive" r="255" g="255" b="255" a="255" value="(color 255 255 255 255)"/>
+          <property type="Float" name="mat_diff_light_power" value="6.1"/>
+          <property type="Float" name="mat_spec_light_power" value="6.0"/>
+          <property type="Float" name="mat_spec_light_str" value="0.05"></property>
+          <property type="BitMap" name="diffuse_map" value="assets\legacy\textures\environments\planet_haze_gray_gui_diff"/>
+          <property type="Float" name="diffuseStr" value="1.0"></property>
+        </properties>
+      </material>
+      <material name="cluster_l_planet_clouds" shader="XU_cloud_HDR.fx" blendmode="ALPHA8" preview="none">
+        <properties>
+          <property type="Float" name="mat_diff_light_str" value="1.0"/>
+          <property type="Float" name="mat_diff_light_power" value="1.0"/>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\earth_clouds_diff"/>
+          <property type="Float" name="mat_diff2_light_str" value="1.0"/>
+          <property type="Float" name="mat_diff2_light_power" value="8.0"/>
+          <property type="BitMap" name="normal_map" value="extensions\aa_xr_clusters\planets\textures\earth_clouds_normal"/>
+          <property type="BitMap" name="mask_map" value="extensions\aa_xr_clusters\planets\textures\earth_clouds_diff"/>
+          <property type="Float" name="maskStr" value="1.0"/>
+        </properties>
+      </material>
+      <material name="cluster_l_planet_volcano" shader="XU_blackhole.fx" blendmode="ALPHA8" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\cluster_l_nebular_02_diff"></property>
+          <property type="Float" name="diffuseStr" value="1.20"></property>
+          <property type="BitMap" name="mask_map" value="extensions\aa_xr_clusters\planets\textures\smoke_plume_diff"></property>
+        </properties>
+        <variations></variations>
+        <areas></areas>
+      </material>
+      <material name="cluster_l_planet_volcanolava" shader="XU_simple_hdr_out.fx" blendmode="ADDITIVE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\volcano_lava_streams_diff"></property>
+          <property type="Float" name="diffuseStr" value="1.75"></property>
+        </properties>
+      </material>
+      <material name="cluster_n_planet" shader="XU_gasgiant_v2_surface.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_detail_map" value="extensions\aa_xr_clusters\planets\textures\cluster_n_gasgiant_detail_diff"></property>
+          <property type="BitMap" name="diffuse_paint_map" value="extensions\aa_xr_clusters\planets\textures\cluster_n_gasgiant_diff"></property>
+          <property type="Float" name="environmentStr" value="0.0"></property>
+          <property type="Float" name="mat_diff_light_str" value="1.6"></property>
+          <property type="Float" name="mat_diff_light_power" value="6.0"></property>
+          <property type="Float" name="mat_spec_light_str" value="1.0"></property>
+          <property type="Float" name="mat_spec_light_power" value="0.0"></property>
+        </properties>
+      </material>
+      <material name="cluster_n_planet_haze" shader="XU_planet_haze_hdr.fx" blendmode="ADDITIVE" preview="none">
+        <properties>
+          <property type="Color" name="color_emissive" r="255" g="255" b="255" a="0" value="(color 255 255 255 0)"/>
+          <property type="Float" name="mat_diff_light_power" value="6.1"/>
+          <property type="Float" name="mat_spec_light_power" value="6.0"/>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\planets_haze_jupiter_diff"/>
+          <property type="Float" name="diffuseStr" value="1.0"></property>
+          <property type="Float" name="specularStr" value="0.1"></property>
+        </properties>
+      </material>
+      <material name="cluster_n_planet_rings" shader="XU_simple_hdr_out.fx" blendmode="ALPHA8" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\planets\textures\cluster_n_planetrings_diff"></property>
+          <property type="Float" name="diffuseStr" value="1.0"></property>
+        </properties>
+      </material>
+      <material name="bg_vertexcolor_solid" shader="XU_simple_hdr_out.fx" blendmode="NONE" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="extensions\aa_xr_clusters\cluster\textures\bg_white_2_diff"></property>
+          <property type="Float" name="diffuseStr" value="1.0"></property>
+        </properties>
+      </material>
+      <material name="red_nebula" shader="XU_simple.fx" blendmode="SCREEN" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="assets\legacy\environments\fog\texturesfog_patterncloud_04"></property>
+          <property type="Float" name="diffuseStr" value="0.5"></property>
+        </properties>
+      </material>
+      <material name="red_nebula_v2" shader="XU_simple.fx" blendmode="SCREEN" preview="none">
+        <properties>
+          <property type="BitMap" name="diffuse_map" value="assets\legacy\environments\fog\texturesfog_patterncloud_04"></property>
+          <property type="Float" name="diffuseStr" value="0.5"></property>
+        </properties>
+      </material>
+  
+  
   
   </add>
 
